@@ -1,3 +1,53 @@
+# Dependencies
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build files
+dist
+build
+.cache
+
+# Version control
+.git
+.gitignore
+
+# Environment
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE specific files
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage
+.nyc_output
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.github
+docs
+README.md
+LICENSE
+*.md
+
 # Dependency directories
 node_modules
 npm-debug.log

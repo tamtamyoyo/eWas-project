@@ -5,9 +5,12 @@ FROM node:18-alpine
 WORKDIR /app
 
 # Copy package files
-COPY package*.json ./
+COPY package.json package-lock.json* ./
 
-# Install all dependencies (including dev dependencies for build)
+# First, update package-lock.json to match package.json
+RUN npm install --package-lock-only
+
+# Install all dependencies (including dev dependencies)
 RUN npm install
 
 # Copy project files
@@ -16,7 +19,7 @@ COPY . .
 # Build the application
 RUN npm run build
 
-# Remove development dependencies
+# Clean up dev dependencies
 RUN npm prune --production
 
 # Set environment variables
