@@ -52,10 +52,6 @@ export const secureHeaders = helmet({
     action: 'deny',
   },
   dnsPrefetchControl: true,
-  expectCt: {
-    maxAge: 86400,
-    enforce: true,
-  },
   permittedCrossDomainPolicies: true,
   referrerPolicy: { policy: 'same-origin' },
 });

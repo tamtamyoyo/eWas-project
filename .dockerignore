@@ -1,4 +1,4 @@
-# Dependencies
+# Node.js
 node_modules
 npm-debug.log
 yarn-debug.log
@@ -6,12 +6,11 @@ yarn-error.log
 
 # Build files
 dist
-build
-.cache
 
 # Version control
 .git
 .gitignore
+.github
 
 # Environment
 .env
@@ -19,12 +18,14 @@ build
 .env.development
 .env.test
 .env.production
+supabase-env.example
 
 # IDE specific files
 .idea
 .vscode
 *.swp
 *.swo
+.cursor
 
 # OS files
 .DS_Store
@@ -33,87 +34,36 @@ Thumbs.db
 # Testing
 coverage
 .nyc_output
+test-*.js
+TEST-RESULTS.md
 
 # Logs
 logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Misc
-.github
 docs
-README.md
-LICENSE
 *.md
-
-# Dependency directories
-node_modules
-npm-debug.log
-
-# Build outputs
-dist
-build
-.next
-out
-
-# Environment files
-.env
-.env.*
-*.env
-
-# Git and GitHub
-.git
-.github
-.gitignore
-
-# Development files
-.vscode
-.idea
-*.log
-logs
-*.DS_Store
-
-# Testing
-coverage
-.nyc_output
-test
-tests
-
-# Temporary files
-tmp
-temp
-.tmp
-.temp
-
-# Docker related
-Dockerfile*
-docker-compose*
-.dockerignore
-
-# Documentation
-README.md
-CHANGELOG.md
-LICENSE
-docs
-
-# Cursor-specific files
-.cursor
-
-# Large files
-*.tar.gz
-*.zip
-
-# Backup files
-backup
-*.bak
+!README.md
 
 # Development directories
 attached_assets
 app-testo
 new
+backup
+tmp
+temp
+.tmp
+.temp
 
-# Other unnecessary files
-*.swp
-*.swo 
+# Unnecessary build files
+*.tar.gz
+*.zip
+*.bak
+
+# Keep all important source code
+!client/
+!server/
+!shared/
+!public/
+!supabase/ 

@@ -1,159 +1,207 @@
-import React, { useState } from 'react';
-import { useSocialAccounts } from '@/hooks/useSocialAccounts';
-import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { useState, useEffect } from 'react';
+import { useAuth } from '../contexts/AuthContext';
+import { supabase } from '../lib/supabase-client';
 
-type SocialPlatform = 'twitter' | 'facebook' | 'instagram' | 'linkedin';
-
-interface PlatformInfo {
-  name: string;
-  icon: React.ReactNode;
-  color: string;
+// Define types for social accounts
+interface SocialAccount {
+  id: string;
+  user_id: string;
+  provider: string;
+  provider_id: string;
+  access_token: string;
+  refresh_token?: string;
+  token_expires_at?: string;
+  created_at: string;
+  updated_at: string;
+  profile_data?: any;
+  status: string;
 }
 
-const platformInfo: Record<SocialPlatform, PlatformInfo> = {
-  twitter: { name: 'Twitter', icon: <FaTwitter size={24} />, color: 'bg-blue-400' },
-  facebook: { name: 'Facebook', icon: <FaFacebook size={24} />, color: 'bg-blue-600' },
-  instagram: { name: 'Instagram', icon: <FaInstagram size={24} />, color: 'bg-pink-500' },
-  linkedin: { name: 'LinkedIn', icon: <FaLinkedin size={24} />, color: 'bg-blue-700' }
-};
+// Define the database returned type
+interface DbSocialAccount {
+  id: string;
+  user_id: string;
+  provider: string;
+  provider_user_id: string; // Different from our internal type
+  access_token: string | null;
+  refresh_token: string | null;
+  expires_at: string | null; // Different from our internal type
+  username: string | null;
+  profile_url: string | null;
+  created_at: string;
+  updated_at: string;
+}
 
 export function SocialAccounts() {
-  const { data: socialAccounts, isLoading, error } = useSocialAccounts();
-  const [removeLoading, setRemoveLoading] = useState<{[key: string]: boolean}>({});
+  const { user } = useAuth();
+  const [socialAccounts, setSocialAccounts] = useState<SocialAccount[] | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
 
-  const handleConnect = (platform: string) => {
-    // Redirect to the appropriate OAuth flow
-    window.location.href = `/api/${platform.toLowerCase()}/auth`;
-  };
-
-  const handleRemove = async (accountId: number, platform: string) => {
-    try {
-      setRemoveLoading(prev => ({ ...prev, [accountId]: true }));
+  useEffect(() => {
+    // Fetch connected social accounts when component mounts
+    const fetchSocialAccounts = async () => {
+      if (!user) return;
       
-      const response = await fetch(`/api/social-accounts/${accountId}`, {
-        method: 'DELETE',
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      });
+      setLoading(true);
+      setError(null);
       
-      if (!response.ok) {
-        throw new Error(`Failed to disconnect ${platform}`);
+      try {
+        const { data, error } = await supabase
+          .from('social_accounts')
+          .select('*')
+          .eq('user_id', user.id)
+          .order('created_at', { ascending: false });
+        
+        if (error) throw error;
+        
+        // Convert database type to component type
+        const formattedAccounts: SocialAccount[] = (data as DbSocialAccount[]).map(account => ({
+          id: account.id,
+          user_id: account.user_id,
+          provider: account.provider,
+          provider_id: account.provider_user_id,
+          access_token: account.access_token || '',
+          refresh_token: account.refresh_token || undefined,
+          token_expires_at: account.expires_at || undefined,
+          created_at: account.created_at,
+          updated_at: account.updated_at,
+          profile_data: {
+            username: account.username,
+            profile_url: account.profile_url
+          },
+          status: 'active' // Default status if not available in DB
+        }));
+        
+        setSocialAccounts(formattedAccounts);
+      } catch (err: any) {
+        console.error('Error fetching social accounts:', err);
+        setError(err.message || 'Failed to load social accounts');
+      } finally {
+        setLoading(false);
       }
+    };
+    
+    fetchSocialAccounts();
+  }, [user]);
+
+  const disconnectAccount = async (accountId: string) => {
+    if (!user) return;
+    
+    if (!confirm('Are you sure you want to disconnect this account?')) {
+      return;
+    }
+    
+    setLoading(true);
+    
+    try {
+      const { error } = await supabase
+        .from('social_accounts')
+        .delete()
+        .eq('id', accountId)
+        .eq('user_id', user.id);
       
-      // Force a refresh of social accounts data
-      window.location.reload();
-    } catch (err) {
-      console.error(`Error disconnecting ${platform}:`, err);
-      alert(`Failed to disconnect ${platform}. Please try again.`);
+      if (error) throw error;
+      
+      // Update state after successful disconnect
+      setSocialAccounts((prev) => prev ? prev.filter(account => account.id !== accountId) : null);
+    } catch (err: any) {
+      console.error('Error disconnecting account:', err);
+      setError(err.message || 'Failed to disconnect account');
     } finally {
-      setRemoveLoading(prev => ({ ...prev, [accountId]: false }));
+      setLoading(false);
     }
   };
 
-  if (isLoading) {
-    return (
-      <div className="flex justify-center items-center min-h-[60vh]">
-        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="text-center p-8">
-        <div className="text-red-500 mb-4">Failed to load social accounts</div>
-        <button 
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-          onClick={() => window.location.reload()}
-        >
-          Try Again
-        </button>
-      </div>
-    );
-  }
+  const getProviderIcon = (provider: string) => {
+    const iconMap: Record<string, string> = {
+      facebook: '/images/facebook.svg',
+      twitter: '/images/twitter.svg',
+      instagram: '/images/instagram.svg',
+      linkedin: '/images/linkedin.svg',
+      google: '/images/google.svg',
+      tiktok: '/images/tiktok.svg',
+      snapchat: '/images/snapchat.svg',
+      pinterest: '/images/pinterest.svg',
+      youtube: '/images/youtube.svg',
+    };
+    
+    return iconMap[provider.toLowerCase()] || '/images/default-social.svg';
+  };
 
   return (
     <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-8">Connected Social Accounts</h1>
+      <h1 className="text-2xl font-bold mb-6">Connected Social Accounts</h1>
       
-      <div className="grid gap-6 md:grid-cols-2">
-        {/* Connected accounts */}
-        {socialAccounts?.length > 0 ? (
-          socialAccounts.map((account) => {
-            const platform = account.platform.toLowerCase() as SocialPlatform;
-            const info = platformInfo[platform] || {
-              name: account.platform,
-              icon: null,
-              color: 'bg-gray-500'
-            };
-            
-            return (
-              <div key={account.id} className="bg-white rounded-lg shadow p-6">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center">
-                    <div className={`${info.color} p-3 rounded-full text-white mr-4`}>
-                      {info.icon}
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-lg">{info.name}</h3>
-                      <p className="text-gray-600 text-sm">{account.accountName || account.username || 'Connected'}</p>
-                    </div>
-                  </div>
-                  <button
-                    onClick={() => handleRemove(account.id, account.platform)}
-                    disabled={removeLoading[account.id]}
-                    className="text-sm text-red-500 hover:text-red-700"
-                  >
-                    {removeLoading[account.id] ? 'Removing...' : 'Disconnect'}
-                  </button>
-                </div>
-                <div className="text-sm text-gray-500">
-                  Connected on {new Date(account.createdAt).toLocaleDateString()}
-                </div>
-              </div>
-            );
-          })
-        ) : (
-          <div className="col-span-2 text-center py-8 bg-gray-50 rounded-lg">
-            <p className="text-gray-600 mb-4">You don't have any connected social accounts yet.</p>
-            <p className="text-gray-500 mb-8">Connect your social media accounts to start posting.</p>
-          </div>
-        )}
-      </div>
-      
-      <div className="mt-12 mb-8">
-        <h2 className="text-2xl font-bold mb-6">Connect New Accounts</h2>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-          {Object.entries(platformInfo).map(([platform, info]) => {
-            const isConnected = socialAccounts?.some(
-              account => account.platform.toLowerCase() === platform
-            );
-            
-            return (
-              <button
-                key={platform}
-                onClick={() => handleConnect(platform)}
-                disabled={isConnected}
-                className={`p-4 rounded-lg border ${
-                  isConnected 
-                    ? 'border-gray-200 bg-gray-100 cursor-not-allowed' 
-                    : 'border-gray-300 hover:border-blue-500 hover:bg-blue-50'
-                } transition-colors flex flex-col items-center justify-center`}
-              >
-                <div className={`${isConnected ? 'text-gray-400' : info.color.replace('bg-', 'text-')} mb-2`}>
-                  {info.icon}
-                </div>
-                <span className={`${isConnected ? 'text-gray-400' : 'text-gray-800'} font-medium`}>
-                  {info.name}
-                </span>
-                <span className="text-xs mt-1 text-gray-500">
-                  {isConnected ? 'Connected' : 'Connect'}
-                </span>
-              </button>
-            );
-          })}
+      {error && (
+        <div className="p-4 mb-6 bg-red-100 text-red-800 rounded">
+          {error}
         </div>
+      )}
+      
+      {loading && (
+        <div className="flex justify-center my-8">
+          <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+        </div>
+      )}
+      
+      {!loading && socialAccounts && socialAccounts.length === 0 && (
+        <div className="p-6 text-center bg-gray-50 rounded-lg shadow-sm">
+          <p className="text-gray-600 mb-4">You don't have any social accounts connected yet.</p>
+          <a 
+            href="/connect" 
+            className="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          >
+            Connect Accounts
+          </a>
+        </div>
+      )}
+      
+      {!loading && socialAccounts && socialAccounts.length > 0 && (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {socialAccounts.map(account => (
+            <div key={account.id} className="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 flex-shrink-0">
+                  <img 
+                    src={getProviderIcon(account.provider)} 
+                    alt={account.provider} 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h3 className="font-medium capitalize">{account.provider}</h3>
+                  <p className="text-sm text-gray-500">
+                    Connected on {new Date(account.created_at).toLocaleDateString()}
+                  </p>
+                  <p className="text-sm text-gray-500">
+                    Status: <span className={`font-medium ${account.status === 'active' ? 'text-green-600' : 'text-yellow-600'}`}>
+                      {account.status || 'unknown'}
+                    </span>
+                  </p>
+                </div>
+                <button 
+                  onClick={() => disconnectAccount(account.id)}
+                  className="px-3 py-1 text-sm bg-red-50 text-red-600 rounded hover:bg-red-100"
+                  disabled={loading}
+                >
+                  Disconnect
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+      
+      <div className="mt-8 pt-6 border-t border-gray-200">
+        <h2 className="text-xl font-semibold mb-4">Add More Accounts</h2>
+        <p className="mb-4 text-gray-600">Connect additional social media accounts to post across more platforms.</p>
+        <a 
+          href="/connect" 
+          className="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+        >
+          Connect More Accounts
+        </a>
       </div>
     </div>
   );
