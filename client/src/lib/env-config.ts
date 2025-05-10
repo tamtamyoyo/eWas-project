@@ -1,58 +1,111 @@
 /**
  * Environment Configuration
  * 
- * This file centralizes all environment variables for the application.
+ * This file centralizes all environment variables for the client application.
  * All variables are prefixed with VITE_ to be accessible in the client code.
  * 
  * IMPORTANT: Replace placeholder values with your actual keys in a .env file
  * DO NOT commit actual API keys to version control
  */
 
+// Helper to get environment variables with smart fallbacks
+const getEnv = (key: string, fallback: string = ''): string => {
+  // For Vite, we need to use import.meta.env
+  // TypeScript doesn't know about Vite's special import.meta.env by default
+  const envVar = (import.meta as any).env[key];
+  return (envVar || fallback) as string;
+};
+
+// Is development mode?
+export const IS_DEVELOPMENT = (import.meta as any).env.DEV === true;
+
+// Server URLs for API calls
+export const API_CONFIG = {
+  API_URL: getEnv('VITE_API_URL', IS_DEVELOPMENT ? 'http://localhost:3000/api' : 'https://api.ewasl.com'),
+  CLIENT_URL: getEnv('VITE_CLIENT_URL', IS_DEVELOPMENT ? 'http://localhost:3000' : 'https://app.ewasl.com'),
+};
+
 // Authentication Providers
 export const AUTH_CONFIG = {
   // Facebook
-  FACEBOOK_APP_ID: process.env.VITE_FACEBOOK_APP_ID || 'your-facebook-app-id',
-  FACEBOOK_APP_SECRET: process.env.VITE_FACEBOOK_APP_SECRET || 'your-facebook-app-secret',
+  FACEBOOK_APP_ID: getEnv('VITE_FACEBOOK_APP_ID', ''),
   
   // Google
-  GOOGLE_CLIENT_ID: process.env.VITE_GOOGLE_CLIENT_ID || 'your-google-client-id',
-  GOOGLE_CLIENT_SECRET: process.env.VITE_GOOGLE_CLIENT_SECRET || 'your-google-client-secret',
-  GOOGLE_REDIRECT_URI: process.env.VITE_GOOGLE_REDIRECT_URI || 'https://app.ewasl.com/oauth2callback',
+  GOOGLE_CLIENT_ID: getEnv('VITE_GOOGLE_CLIENT_ID', ''),
+  GOOGLE_REDIRECT_URI: getEnv('VITE_GOOGLE_REDIRECT_URI', `${API_CONFIG.CLIENT_URL}/oauth2callback`),
   
   // Instagram
-  INSTAGRAM_APP_ID: process.env.VITE_INSTAGRAM_APP_ID || 'your-instagram-app-id',
-  INSTAGRAM_APP_SECRET: process.env.VITE_INSTAGRAM_APP_SECRET || 'your-instagram-app-secret',
+  INSTAGRAM_APP_ID: getEnv('VITE_INSTAGRAM_APP_ID', ''),
   
   // LinkedIn
-  LINKEDIN_CLIENT_ID: process.env.VITE_LINKEDIN_CLIENT_ID || 'your-linkedin-client-id',
-  LINKEDIN_CLIENT_SECRET: process.env.VITE_LINKEDIN_CLIENT_SECRET || 'your-linkedin-client-secret',
-  LINKEDIN_REDIRECT_URI: process.env.VITE_LINKEDIN_REDIRECT_URI || 'https://app.ewasl.com/api/linkedin/callback',
+  LINKEDIN_CLIENT_ID: getEnv('VITE_LINKEDIN_CLIENT_ID', ''),
+  LINKEDIN_REDIRECT_URI: getEnv('VITE_LINKEDIN_REDIRECT_URI', `${API_CONFIG.CLIENT_URL}/api/linkedin/callback`),
   
   // Twitter
-  TWITTER_API_KEY: process.env.VITE_TWITTER_API_KEY || 'your-twitter-api-key',
-  TWITTER_API_SECRET: process.env.VITE_TWITTER_API_SECRET || 'your-twitter-api-secret',
-  TWITTER_CALLBACK_URL: process.env.VITE_TWITTER_CALLBACK_URL || 'https://app.ewasl.com/auth/twitter/callback',
+  TWITTER_API_KEY: getEnv('VITE_TWITTER_API_KEY', ''),
+  TWITTER_CALLBACK_URL: getEnv('VITE_TWITTER_CALLBACK_URL', `${API_CONFIG.CLIENT_URL}/auth/twitter/callback`),
   
   // Snapchat
-  SNAPCHAT_CLIENT_ID: process.env.VITE_SNAPCHAT_CLIENT_ID || 'your-snapchat-client-id',
-  SNAPCHAT_CLIENT_SECRET: process.env.VITE_SNAPCHAT_CLIENT_SECRET || 'your-snapchat-client-secret',
+  SNAPCHAT_CLIENT_ID: getEnv('VITE_SNAPCHAT_CLIENT_ID', ''),
+  
+  // Helper function to check if a provider is configured
+  isProviderConfigured: (provider: string): boolean => {
+    switch (provider.toLowerCase()) {
+      case 'facebook':
+        return !!getEnv('VITE_FACEBOOK_APP_ID', '');
+      case 'google':
+        return !!getEnv('VITE_GOOGLE_CLIENT_ID', '');
+      case 'instagram':
+        return !!getEnv('VITE_INSTAGRAM_APP_ID', '');
+      case 'linkedin':
+        return !!getEnv('VITE_LINKEDIN_CLIENT_ID', '');
+      case 'twitter':
+        return !!getEnv('VITE_TWITTER_API_KEY', '');
+      case 'snapchat':
+        return !!getEnv('VITE_SNAPCHAT_CLIENT_ID', '');
+      default:
+        return false;
+    }
+  },
+  
+  // Get array of configured providers
+  getConfiguredProviders: (): string[] => {
+    const providers = ['facebook', 'google', 'instagram', 'linkedin', 'twitter', 'snapchat'];
+    return providers.filter(provider => AUTH_CONFIG.isProviderConfigured(provider));
+  }
 };
 
 // Payments
 export const PAYMENT_CONFIG = {
-  STRIPE_PUBLIC_KEY: process.env.VITE_STRIPE_PUBLIC_KEY || 'your-stripe-public-key',
-  STRIPE_SECRET_KEY: process.env.VITE_STRIPE_SECRET_KEY || 'your-stripe-secret-key',
-};
-
-// API Keys
-export const API_KEYS = {
-  OPENAI_API_KEY: process.env.VITE_OPENAI_API_KEY || 'your-openai-api-key',
-  SENDGRID_API_KEY: process.env.VITE_SENDGRID_API_KEY || 'your-sendgrid-api-key',
+  STRIPE_PUBLIC_KEY: getEnv('VITE_STRIPE_PUBLIC_KEY', ''),
+  IS_AVAILABLE: !!getEnv('VITE_STRIPE_PUBLIC_KEY', ''),
 };
 
 // Supabase Configuration
-// Note: Getting these from existing env variables if available, otherwise using defaults
 export const SUPABASE_CONFIG = {
-  SUPABASE_URL: process.env.VITE_SUPABASE_URL || 'your-supabase-url',
-  SUPABASE_ANON_KEY: process.env.VITE_SUPABASE_ANON_KEY || 'your-supabase-anon-key',
-}; 
+  SUPABASE_URL: getEnv('VITE_SUPABASE_URL', ''),
+  SUPABASE_ANON_KEY: getEnv('VITE_SUPABASE_ANON_KEY', ''),
+  IS_AVAILABLE: !!(getEnv('VITE_SUPABASE_URL', '') && getEnv('VITE_SUPABASE_ANON_KEY', '')),
+};
+
+// Application Feature Flags - enables conditional rendering based on available services
+export const FEATURE_FLAGS = {
+  ENABLE_STRIPE_PAYMENTS: PAYMENT_CONFIG.IS_AVAILABLE,
+  ENABLE_SUPABASE_FEATURES: SUPABASE_CONFIG.IS_AVAILABLE,
+  ENABLE_SOCIAL_LOGIN: AUTH_CONFIG.getConfiguredProviders().length > 0,
+};
+
+// Log environment configuration in development
+if (IS_DEVELOPMENT) {
+  // Only log non-sensitive information
+  console.log('=== Client Environment Configuration ===');
+  console.log('API URLs:', API_CONFIG);
+  console.log('Configured Auth Providers:', AUTH_CONFIG.getConfiguredProviders());
+  console.log('Feature Flags:', FEATURE_FLAGS);
+  console.log('=========================================');
+  
+  // Show warning if critical services are missing
+  if (!SUPABASE_CONFIG.IS_AVAILABLE) {
+    console.warn('⚠️ WARNING: Supabase configuration is missing. Some features may not work correctly.');
+  }
+} 
