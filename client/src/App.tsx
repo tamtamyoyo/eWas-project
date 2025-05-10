@@ -10,7 +10,7 @@ import { ResetPassword } from './pages/auth/ResetPassword';
 import { AuthCallback } from './pages/auth/AuthCallback';
 
 // Main app pages
-import { Dashboard } from './pages/Dashboard';
+import Dashboard from './pages/Dashboard';
 import { Profile } from './pages/Profile';
 import { SocialAccounts } from './pages/SocialAccounts';
 import { CreatePost } from './pages/posts/CreatePost';
@@ -20,7 +20,7 @@ import { PostDetails } from './pages/posts/PostDetails';
 // Layout components
 import { MainLayout } from './components/layouts/MainLayout';
 
-export function App() {
+export default function App() {
   return (
     <AuthProvider>
       <Switch>

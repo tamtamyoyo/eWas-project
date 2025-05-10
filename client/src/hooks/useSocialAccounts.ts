@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { SocialAccount } from '@shared/schema';
+import type { SocialAccount } from '../types/social-accounts';
 
 export const useSocialAccounts = () => {
   return useQuery<SocialAccount[]>({

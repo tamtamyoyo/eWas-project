@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import { supabase } from '../../lib/supabase-client';
-import { useNavigate } from 'wouter';
+import { useLocation } from 'wouter';
 
 export function AuthCallback() {
-  const [_, setLocation] = useNavigate();
+  const [_, setLocation] = useLocation();
 
   useEffect(() => {
     // Process the OAuth callback
