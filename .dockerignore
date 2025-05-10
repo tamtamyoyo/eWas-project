@@ -1,0 +1,69 @@
+# Dependency directories
+node_modules
+npm-debug.log
+
+# Build outputs
+dist
+build
+.next
+out
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Git and GitHub
+.git
+.github
+.gitignore
+
+# Development files
+.vscode
+.idea
+*.log
+logs
+*.DS_Store
+
+# Testing
+coverage
+.nyc_output
+test
+tests
+
+# Temporary files
+tmp
+temp
+.tmp
+.temp
+
+# Docker related
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Documentation
+README.md
+CHANGELOG.md
+LICENSE
+docs
+
+# Cursor-specific files
+.cursor
+
+# Large files
+*.tar.gz
+*.zip
+
+# Backup files
+backup
+*.bak
+
+# Development directories
+attached_assets
+app-testo
+new
+
+# Other unnecessary files
+*.swp
+*.swo 
