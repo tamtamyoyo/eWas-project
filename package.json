@@ -9,7 +9,18 @@
     "start": "NODE_ENV=production node dist/index.js",
     "check": "tsc",
     "db:push": "drizzle-kit push",
-    "db:migrate-to-supabase": "tsx server/migrate-to-supabase.ts"
+    "db:migrate-to-supabase": "tsx server/migrate-to-supabase.ts",
+    "supabase:start": "supabase start",
+    "supabase:stop": "supabase stop",
+    "supabase:migration:new": "supabase migration new",
+    "supabase:migration:up": "supabase migration up",
+    "supabase:db:push": "supabase db push",
+    "supabase:db:reset": "supabase db reset",
+    "supabase:types:gen": "supabase gen types typescript --local > server/types/supabase.ts",
+    "supabase:deploy:functions": "supabase functions deploy",
+    "supabase:backup": "supabase db dump -f backup/db_backup_$(date +%Y%m%d_%H%M%S).sql",
+    "supabase:seed": "supabase db reset",
+    "supabase:complete-setup": "node supabase/setup-and-deploy.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.37.0",
@@ -117,6 +128,7 @@
     "drizzle-kit": "^0.30.4",
     "esbuild": "^0.25.0",
     "postcss": "^8.4.47",
+    "supabase": "^1.148.0",
     "tailwindcss": "^3.4.14",
     "tsx": "^4.19.1",
     "typescript": "5.6.3",

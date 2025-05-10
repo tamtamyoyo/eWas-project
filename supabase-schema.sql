@@ -1,5 +1,5 @@
 -- Supabase Schema Migration
--- Generated on 2025-05-10T17:31:36.441Z
+-- Generated on 2025-05-10T19:53:44.833Z
 
 -- Create table users
 CREATE TABLE IF NOT EXISTS "users" (

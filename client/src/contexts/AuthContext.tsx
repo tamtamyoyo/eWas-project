@@ -9,9 +9,17 @@ import {
   resetPassword, 
   updateUserPassword, 
   signInWithProvider,
-  onAuthStateChange
+  onAuthStateChange,
+  updateProfile
 } from '../lib/supabase-client';
 import type { User, Session } from '@supabase/supabase-js';
+
+// Define a ProfileUpdateData type
+export type ProfileUpdateData = {
+  full_name?: string;
+  username?: string;
+  avatar_url?: string;
+};
 
 type AuthContextType = {
   user: User | null;
@@ -24,6 +32,7 @@ type AuthContextType = {
   forgotPassword: (email: string) => Promise<{ error: any | null }>;
   updatePassword: (password: string) => Promise<{ error: any | null }>;
   loginWithProvider: (provider: 'google' | 'twitter' | 'facebook' | 'linkedin' | 'instagram' | 'snapchat') => Promise<void>;
+  updateUserProfile: (profileData: ProfileUpdateData) => Promise<{ error: any | null }>;
 };
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -123,6 +132,32 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
+  const updateUserProfile = async (profileData: ProfileUpdateData) => {
+    try {
+      if (!user) {
+        return { error: 'Not authenticated' };
+      }
+
+      const { error } = await updateProfile(profileData);
+      
+      if (!error) {
+        // Update the local user state with the new profile data
+        setUser({
+          ...user,
+          user_metadata: {
+            ...user.user_metadata,
+            ...profileData
+          }
+        });
+      }
+      
+      return { error };
+    } catch (error) {
+      console.error('Update profile error:', error);
+      return { error };
+    }
+  };
+
   return (
     <AuthContext.Provider value={{
       user,
@@ -134,7 +169,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       logout,
       forgotPassword,
       updatePassword,
-      loginWithProvider
+      loginWithProvider,
+      updateUserProfile
     }}>
       {children}
     </AuthContext.Provider>

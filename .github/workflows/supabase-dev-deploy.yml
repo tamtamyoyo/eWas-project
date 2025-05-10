@@ -1,0 +1,58 @@
+name: Deploy to Supabase Development Branch
+
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+      SUPABASE_PROJECT_ID: ${{ secrets.SUPABASE_PROJECT_ID }}
+      SUPABASE_BRANCH_ID: ${{ secrets.SUPABASE_DEV_BRANCH_ID }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+
+      - name: Setup Supabase CLI
+        uses: supabase/setup-cli@v1
+        with:
+          version: latest
+
+      - name: Link to Supabase project
+        run: supabase link --project-ref $SUPABASE_PROJECT_ID
+
+      # Create a branch if it doesn't exist
+      - name: Create development branch if it doesn't exist
+        run: |
+          if ! supabase branches list | grep -q "develop"; then
+            supabase branches create develop
+            echo "Created new development branch"
+          else
+            echo "Development branch already exists"
+          fi
+
+      # Push database changes to the development branch
+      - name: Push database migrations to development branch
+        run: supabase db push --branch develop
+
+      # Deploy edge functions to development branch
+      - name: Deploy Edge Functions to development branch
+        run: supabase functions deploy --branch develop --no-verify-jwt
+
+      # Run tests against the development branch
+      - name: Run tests against development branch
+        run: |
+          echo "SUPABASE_URL=${{ secrets.SUPABASE_DEV_URL }}" >> $GITHUB_ENV
+          echo "SUPABASE_ANON_KEY=${{ secrets.SUPABASE_DEV_ANON_KEY }}" >> $GITHUB_ENV
+          npm test 

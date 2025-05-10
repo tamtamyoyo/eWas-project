@@ -1,6 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 import type { Database } from '../../../server/types/supabase';
 import { SUPABASE_CONFIG } from './env-config';
+import type { ProfileUpdateData } from '../contexts/AuthContext';
 
 // Get environment variables from the config
 const supabaseUrl = SUPABASE_CONFIG.SUPABASE_URL;
@@ -60,6 +61,51 @@ export async function signInWithProvider(provider: 'google' | 'twitter' | 'faceb
       redirectTo: `${window.location.origin}/auth/callback`
     }
   });
+}
+
+// Update user profile data
+export async function updateProfile(profileData: ProfileUpdateData) {
+  // First update auth data
+  const authUpdate = await supabase.auth.updateUser({
+    data: {
+      full_name: profileData.full_name || null,
+      username: profileData.username || null,
+      avatar_url: profileData.avatar_url || null
+    }
+  });
+  
+  if (authUpdate.error) {
+    return authUpdate;
+  }
+  
+  // Then update the profile data in the users table
+  const user = (await getCurrentUser()).data.user;
+  if (!user) {
+    return { error: new Error('User not found') };
+  }
+  
+  const updateData: Partial<Record<string, any>> = {
+    updated_at: new Date().toISOString()
+  };
+  
+  if (profileData.full_name !== undefined) {
+    updateData.full_name = profileData.full_name;
+  }
+  
+  if (profileData.username !== undefined) {
+    updateData.username = profileData.username;
+  }
+  
+  if (profileData.avatar_url !== undefined) {
+    updateData.avatar_url = profileData.avatar_url;
+  }
+  
+  const { error } = await supabase
+    .from('users')
+    .update(updateData)
+    .eq('id', user.id);
+  
+  return { error };
 }
 
 // Listen for auth changes
