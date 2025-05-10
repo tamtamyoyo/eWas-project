@@ -1,0 +1,78 @@
+Warning: React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://reactjs.org/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+%s Login 1. useContext                 useContext
+2. useCallback                useCallback
+3. useState                   useState
+4. useRef                     useRef
+5. useEffect                  useEffect
+6. useRef                     useRef
+7. useEffect                  useEffect
+8. useEffect                  useEffect
+9. useState                   useState
+10. useEffect                 useEffect
+11. useContext                useContext
+12. useState                  useState
+13. useContext                useContext
+14. useContext                useContext
+15. useContext                useContext
+16. useEffect                 useEffect
+17. useState                  useState
+18. useCallback               useCallback
+19. useSyncExternalStore      useSyncExternalStore
+20. useEffect                 useEffect
+21. useContext                useContext
+22. useState                  useState
+23. useEffect                 useEffect
+24. useCallback               useCallback
+25. useSyncExternalStore      useSyncExternalStore
+26. useCallback               useCallback
+27. useCallback               useCallback
+28. useCallback               useCallback
+29. useCallback               useCallback
+30. useEffect                 useEffect
+31. useContext                useContext
+32. useSyncExternalStore      useSyncExternalStore
+33. useRef                    useRef
+34. useInsertionEffect        useInsertionEffect
+35. useContext                useContext
+36. useCallback               useCallback
+37. useState                  useState
+38. useRef                    useRef
+39. useEffect                 useEffect
+40. useRef                    useRef
+41. useEffect                 useEffect
+42. useEffect                 useEffect
+43. useState                  useState
+44. useEffect                 useEffect
+45. useContext                useContext
+46. useState                  useState
+47. useState                  useState
+48. useState                  useState
+49. useRef                    useRef
+50. useRef                    useRef
+51. useState                  useState
+52. useRef                    useRef
+53. useEffect                 useEffect
+54. useEffect                 useEffect
+55. useEffect                 useEffect
+56. useEffect                 useEffect
+57. useEffect                 useEffect
+58. useEffect                 useEffect
+59. useEffect                 useEffect
+60. useEffect                 useEffect
+61. useState                  useState
+62. useState                  useState
+63. useState                  useState
+64. useEffect                 useEffect
+65. useEffect                 useEffect
+66. undefined                 useCallback
+ 
+    at Login (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/pages/Login.tsx?t=1746382794673:48:42)
+    at Route (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=fc88b575:323:16)
+    at Switch (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=fc88b575:379:17)
+    at App
+    at ThemeProvider (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/ui/theme-provider.tsx?t=1746382794673&v=RvzQDdS6rdfPjP21jzDgQ:28:3)
+    at QueryClientProvider (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=fc88b575:2805:3)

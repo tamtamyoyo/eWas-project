@@ -1,0 +1,4358 @@
+/* Thumbnail */
+
+position: relative;
+width: 2160px;
+height: 1080px;
+
+background: #FFFEF9;
+
+
+/* Nabeel Saleem */
+
+position: absolute;
+width: 678px;
+height: 92px;
+left: 286px;
+top: 222px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 91.9106px;
+line-height: 92px;
+/* identical to box height, or 100% */
+letter-spacing: -0.03em;
+
+color: #000000;
+
+opacity: 0.4;
+
+
+/* Frame 8895 */
+
+position: absolute;
+width: 2301px;
+height: 1200px;
+left: -52px;
+top: -60px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 4079 */
+
+position: absolute;
+width: 2189px;
+height: 879px;
+left: 36px;
+top: 507px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #FFDC26 100%);
+
+
+/* Group 427318030 */
+
+position: absolute;
+width: 521.63px;
+height: 63.61px;
+left: calc(50% - 521.63px/2 + 350.69px);
+top: 113px;
+
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 31.8062px 63.6124px 31.8062px 106.551px;
+gap: 20.67px;
+
+position: absolute;
+width: 356.23px;
+height: 63.61px;
+left: 1405.77px;
+top: 113px;
+
+background: #FFFFFF;
+border: 1.59031px solid #000000;
+border-radius: 6.36124px;
+
+
+/* BackOrder */
+
+width: 71px;
+height: 39px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 38px;
+/* identical to box height, or 147% */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 31.8062px 111.322px;
+gap: 15.9px;
+
+width: 130.41px;
+height: 38.17px;
+
+background: #F9D783;
+border-radius: 6.36124px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* BackOrder */
+
+width: 111px;
+height: 39px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 38px;
+/* identical to box height, or 147% */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 31.8062px 111.322px;
+gap: 15.9px;
+
+position: absolute;
+width: 238.55px;
+height: 63.61px;
+left: 1240.37px;
+top: 113px;
+
+background: #000000;
+border-radius: 6.36124px;
+
+
+/* BackOrder */
+
+width: 94px;
+height: 39px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 38px;
+/* identical to box height, or 147% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 9075 */
+
+position: absolute;
+width: 364.25px;
+height: 788.79px;
+left: 919px;
+top: 310.04px;
+
+
+
+/* Group 8905 */
+
+position: absolute;
+width: 364.25px;
+height: 788.79px;
+left: 0px;
+top: 0px;
+
+
+
+/* Rectangle 191 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 364.25px;
+height: 788.79px;
+left: 0px;
+top: 0px;
+
+/* color 5 */
+background: #FFFFFF;
+border-radius: 9.23172px;
+
+
+/* Frame 9083 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 28px;
+
+position: absolute;
+width: 286.39px;
+height: 730.01px;
+left: 40px;
+top: 43.08px;
+
+
+
+/* Frame 9076 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 253px;
+height: 98.08px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 646 */
+
+width: 73.7px;
+height: 39.08px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 400 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5.53903px 13.8476px;
+gap: 9.23px;
+
+position: absolute;
+width: 73.7px;
+height: 39.08px;
+left: 0px;
+top: 0px;
+
+background: #F1F1F1;
+border-radius: 5.53903px;
+
+
+/* BASIC */
+
+width: 46px;
+height: 28px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14.7708px;
+line-height: 28px;
+/* identical to box height, or 187% */
+text-align: center;
+letter-spacing: 0.01em;
+
+/* color 4 */
+color: #000B33;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* For all individuals and starters who want to start with domaining. */
+
+width: 253px;
+height: 44px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14.7708px;
+line-height: 22px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 2 */
+
+width: 275.77px;
+height: 0px;
+
+opacity: 0.3;
+/* color 9 */
+border: 0.923173px solid #001C80;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 9077 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 177px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* $19 */
+
+width: 109px;
+height: 74px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 66.4684px;
+line-height: 73px;
+/* identical to box height, or 110% */
+letter-spacing: -0.461586px;
+
+/* color 4 */
+color: #000B33;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Per member, per Month */
+
+width: 177px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 275.77px;
+height: 0px;
+
+opacity: 0.3;
+/* color 9 */
+border: 0.923173px solid #001C80;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 9081 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 286.39px;
+height: 328px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Group 8891 */
+
+width: 187.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 187.8px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Access to All Features */
+
+position: absolute;
+width: 161px;
+height: 24px;
+left: 26.8px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 0.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 81 */
+
+width: 192.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 192.8px;
+height: 24px;
+left: 0px;
+top: 38px;
+
+
+
+/* 1k lookups / per month */
+
+position: absolute;
+width: 166px;
+height: 24px;
+left: 26.8px;
+top: 38px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 38.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 8894 */
+
+width: 129.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Group 649 */
+
+position: absolute;
+width: 103px;
+height: 24px;
+left: 26.8px;
+top: 76px;
+
+
+
+/* Group 76 */
+
+position: absolute;
+width: 103px;
+height: 24px;
+left: 26.8px;
+top: 76px;
+
+
+
+/* No API Credits */
+
+position: absolute;
+width: 103px;
+height: 24px;
+left: 26.8px;
+top: 76px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+
+/* Group 8892 */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 76.92px;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 76.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #FF0000;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+visibility: hidden;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Vector 47 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 7.39px;
+height: 7.39px;
+left: 7.39px;
+top: 84.31px;
+
+/* fill_icon */
+border: 1.84635px solid #FFFFFF;
+border-radius: 1.84635px;
+
+
+/* Vector 48 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 7.39px;
+height: 7.39px;
+left: 14.77px;
+top: 84.31px;
+
+/* fill_icon */
+border: 1.84635px solid #FFFFFF;
+border-radius: 1.84635px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Group 648 */
+
+width: 173.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 173.8px;
+height: 24px;
+left: 0px;
+top: 114px;
+
+
+
+/* 10 Monitoring Quota */
+
+position: absolute;
+width: 147px;
+height: 24px;
+left: 26.8px;
+top: 114px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 114.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 8895 */
+
+width: 250.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 250.8px;
+height: 24px;
+left: 0px;
+top: 152px;
+
+
+
+/* 60 minutes Monitoring intervel */
+
+position: absolute;
+width: 224px;
+height: 24px;
+left: 26.8px;
+top: 152px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 152.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 647 */
+
+width: 234.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 234.8px;
+height: 24px;
+left: 0px;
+top: 190px;
+
+
+
+/* 20% discount on backorders */
+
+position: absolute;
+width: 208px;
+height: 24px;
+left: 26.8px;
+top: 190px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 190.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Frame 9078 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 286.39px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* Check_fill */
+
+width: 22.16px;
+height: 22.16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Domain Name Appraisal */
+
+width: 182px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 8892 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 4.61586px;
+gap: 9.23px;
+
+width: 72.23px;
+height: 16.62px;
+
+background: #C9FAD6;
+border-radius: 3.69269px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Coming Soon */
+
+width: 63px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 9.23172px;
+line-height: 24px;
+/* identical to box height, or 260% */
+
+color: #1AA703;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 9079 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 201.39px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* Check_fill */
+
+width: 22.16px;
+height: 22.16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Ip Monitoring */
+
+width: 97px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 8893 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 4.61586px;
+gap: 9.23px;
+
+width: 72.23px;
+height: 16.62px;
+
+background: #C9FAD6;
+border-radius: 3.69269px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Coming Soon */
+
+width: 63px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 9.23172px;
+line-height: 24px;
+/* identical to box height, or 260% */
+
+color: #1AA703;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 9080 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 247.39px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* Check_fill */
+
+width: 22.16px;
+height: 22.16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Backlink Monitoring */
+
+width: 143px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 8894 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 4.61586px;
+gap: 9.23px;
+
+width: 72.23px;
+height: 16.62px;
+
+background: #C9FAD6;
+border-radius: 3.69269px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Coming Soon */
+
+width: 63px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 9.23172px;
+line-height: 24px;
+/* identical to box height, or 260% */
+
+color: #1AA703;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 9082 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 276.03px;
+height: 65.93px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18.4635px 64.6221px;
+gap: 9.23px;
+
+width: 276.03px;
+height: 36.93px;
+
+background: #000000;
+border-radius: 3.69269px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* BackOrder */
+
+width: 147px;
+height: 23px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14.7708px;
+line-height: 22px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* No credit card required */
+
+width: 150px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12.9244px;
+line-height: 24px;
+/* identical to box height, or 186% */
+
+color: #444444;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 9076 */
+
+position: absolute;
+width: 364.25px;
+height: 788.79px;
+left: 1719px;
+top: 310.04px;
+
+
+
+/* Group 8905 */
+
+position: absolute;
+width: 364.25px;
+height: 788.79px;
+left: 0px;
+top: 0px;
+
+
+
+/* Rectangle 191 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 364.25px;
+height: 788.79px;
+left: 0px;
+top: 0px;
+
+/* color 5 */
+background: #FFFFFF;
+border-radius: 9.23172px;
+
+
+/* Frame 9083 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 28px;
+
+position: absolute;
+width: 286.39px;
+height: 730.01px;
+left: 40px;
+top: 43.08px;
+
+
+
+/* Frame 9076 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 253px;
+height: 98.08px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 646 */
+
+width: 111.7px;
+height: 39.08px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 400 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5.53903px 13.8476px;
+gap: 9.23px;
+
+position: absolute;
+width: 111.7px;
+height: 39.08px;
+left: 0px;
+top: 0px;
+
+background: #F1F1F1;
+border-radius: 5.53903px;
+
+
+/* ADVANCED */
+
+width: 84px;
+height: 28px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14.7708px;
+line-height: 28px;
+/* identical to box height, or 187% */
+text-align: center;
+letter-spacing: 0.01em;
+
+/* color 4 */
+color: #000B33;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* For all individuals and starters who want to start with domaining. */
+
+width: 253px;
+height: 44px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14.7708px;
+line-height: 22px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 2 */
+
+width: 275.77px;
+height: 0px;
+
+opacity: 0.3;
+/* color 9 */
+border: 0.923173px solid #001C80;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 9077 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 177px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* $99 */
+
+width: 126px;
+height: 74px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 66.4684px;
+line-height: 73px;
+/* identical to box height, or 110% */
+letter-spacing: -0.461586px;
+
+/* color 4 */
+color: #000B33;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Per member, per Month */
+
+width: 177px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 275.77px;
+height: 0px;
+
+opacity: 0.3;
+/* color 9 */
+border: 0.923173px solid #001C80;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 9081 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 286.39px;
+height: 328px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Group 8891 */
+
+width: 187.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 187.8px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Access to All Features */
+
+position: absolute;
+width: 161px;
+height: 24px;
+left: 26.8px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 0.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 81 */
+
+width: 192.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 192.8px;
+height: 24px;
+left: 0px;
+top: 38px;
+
+
+
+/* 1k lookups / per month */
+
+position: absolute;
+width: 166px;
+height: 24px;
+left: 26.8px;
+top: 38px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 38.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 648 */
+
+width: 173.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 173.8px;
+height: 24px;
+left: 0px;
+top: 76px;
+
+
+
+/* 10 Monitoring Quota */
+
+position: absolute;
+width: 147px;
+height: 24px;
+left: 26.8px;
+top: 76px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 76.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 8896 */
+
+width: 200.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 200.8px;
+height: 24px;
+left: 0px;
+top: 114px;
+
+
+
+/* 30K API Credits / month */
+
+position: absolute;
+width: 174px;
+height: 24px;
+left: 26.8px;
+top: 114px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 114.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 8895 */
+
+width: 250.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 250.8px;
+height: 24px;
+left: 0px;
+top: 152px;
+
+
+
+/* 60 minutes Monitoring intervel */
+
+position: absolute;
+width: 224px;
+height: 24px;
+left: 26.8px;
+top: 152px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 152.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 647 */
+
+width: 234.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 234.8px;
+height: 24px;
+left: 0px;
+top: 190px;
+
+
+
+/* 20% discount on backorders */
+
+position: absolute;
+width: 208px;
+height: 24px;
+left: 26.8px;
+top: 190px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 190.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Frame 9078 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 286.39px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* Check_fill */
+
+width: 22.16px;
+height: 22.16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Domain Name Appraisal */
+
+width: 182px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 8892 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 4.61586px;
+gap: 9.23px;
+
+width: 72.23px;
+height: 16.62px;
+
+background: #C9FAD6;
+border-radius: 3.69269px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Coming Soon */
+
+width: 63px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 9.23172px;
+line-height: 24px;
+/* identical to box height, or 260% */
+
+color: #1AA703;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 9079 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 201.39px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* Check_fill */
+
+width: 22.16px;
+height: 22.16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Ip Monitoring */
+
+width: 97px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 8893 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 4.61586px;
+gap: 9.23px;
+
+width: 72.23px;
+height: 16.62px;
+
+background: #C9FAD6;
+border-radius: 3.69269px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Coming Soon */
+
+width: 63px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 9.23172px;
+line-height: 24px;
+/* identical to box height, or 260% */
+
+color: #1AA703;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 9080 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 247.39px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* Check_fill */
+
+width: 22.16px;
+height: 22.16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #141414;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Backlink Monitoring */
+
+width: 143px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 8894 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 4.61586px;
+gap: 9.23px;
+
+width: 72.23px;
+height: 16.62px;
+
+background: #C9FAD6;
+border-radius: 3.69269px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Coming Soon */
+
+width: 63px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 9.23172px;
+line-height: 24px;
+/* identical to box height, or 260% */
+
+color: #1AA703;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 9082 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 276.03px;
+height: 65.93px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18.4635px 64.6221px;
+gap: 9.23px;
+
+width: 276.03px;
+height: 36.93px;
+
+background: #000000;
+border-radius: 3.69269px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* BackOrder */
+
+width: 147px;
+height: 23px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14.7708px;
+line-height: 22px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* No credit card required */
+
+width: 150px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12.9244px;
+line-height: 24px;
+/* identical to box height, or 186% */
+
+color: #444444;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Group 8905 */
+
+position: absolute;
+width: 364.25px;
+height: 837px;
+left: 1319px;
+top: 239px;
+
+
+
+/* Rectangle 191 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 364.25px;
+height: 837px;
+left: 1319px;
+top: 239px;
+
+background: #000B6B;
+border-radius: 9.23172px;
+
+
+/* Frame 9083 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 28px;
+
+position: absolute;
+width: 286.39px;
+height: 767.16px;
+left: calc(50% - 286.39px/2 + 351.69px);
+top: 284px;
+
+background: #000B6B;
+
+
+/* Frame 9076 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 233px;
+height: 135.23px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18.4635px 64.6221px;
+gap: 9.23px;
+
+width: 75.7px;
+height: 22.16px;
+
+background: #A9B2FF;
+border-radius: 3.69269px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* BackOrder */
+
+width: 51px;
+height: 23px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 22px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #000B6B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 646 */
+
+width: 137.7px;
+height: 39.08px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 400 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5.53903px 13.8476px;
+gap: 9.23px;
+
+position: absolute;
+width: 137.7px;
+height: 39.08px;
+left: 0px;
+top: 37.16px;
+
+background: #F1F1F1;
+border-radius: 5.53903px;
+
+
+/* PROFESSIONAL */
+
+width: 110px;
+height: 28px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14.7708px;
+line-height: 28px;
+/* identical to box height, or 187% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #000B33;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* For professional domain names investors with a big portfolio. */
+
+width: 233px;
+height: 44px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14.7708px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Line 2 */
+
+width: 275.77px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.923173px solid #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 9077 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 177px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* $49 */
+
+width: 129px;
+height: 74px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 66.4684px;
+line-height: 73px;
+/* identical to box height, or 110% */
+letter-spacing: -0.461586px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Per member, per Month */
+
+width: 177px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #FFFFFF;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 275.77px;
+height: 0px;
+
+opacity: 0.4;
+border: 0.923173px solid #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 9081 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 286.39px;
+height: 328px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Group 8891 */
+
+width: 187.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 187.8px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Access to All Features */
+
+position: absolute;
+width: 161px;
+height: 24px;
+left: 26.8px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #FFFFFF;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 0.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 81 */
+
+width: 192.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 192.8px;
+height: 24px;
+left: 0px;
+top: 38px;
+
+
+
+/* 1k lookups / per month */
+
+position: absolute;
+width: 166px;
+height: 24px;
+left: 26.8px;
+top: 38px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #FFFFFF;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 38.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 648 */
+
+width: 173.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 173.8px;
+height: 24px;
+left: 0px;
+top: 76px;
+
+
+
+/* 10 Monitoring Quota */
+
+position: absolute;
+width: 147px;
+height: 24px;
+left: 26.8px;
+top: 76px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #FFFFFF;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 76.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 8896 */
+
+width: 200.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 200.8px;
+height: 24px;
+left: 0px;
+top: 114px;
+
+
+
+/* 30K API Credits / month */
+
+position: absolute;
+width: 174px;
+height: 24px;
+left: 26.8px;
+top: 114px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #FFFFFF;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 114.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 8895 */
+
+width: 250.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 250.8px;
+height: 24px;
+left: 0px;
+top: 152px;
+
+
+
+/* 60 minutes Monitoring intervel */
+
+position: absolute;
+width: 224px;
+height: 24px;
+left: 26.8px;
+top: 152px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #FFFFFF;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 152.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Group 647 */
+
+width: 234.8px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Group 76 */
+
+position: absolute;
+width: 234.8px;
+height: 24px;
+left: 0px;
+top: 190px;
+
+
+
+/* 20% discount on backorders */
+
+position: absolute;
+width: 208px;
+height: 24px;
+left: 26.8px;
+top: 190px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #FFFFFF;
+
+
+
+/* Check_fill */
+
+position: absolute;
+width: 22.16px;
+height: 22.16px;
+left: 0px;
+top: 190.92px;
+
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Frame 9078 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 286.39px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* Check_fill */
+
+width: 22.16px;
+height: 22.16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Domain Name Appraisal */
+
+width: 182px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 8892 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 4.61586px;
+gap: 9.23px;
+
+width: 72.23px;
+height: 16.62px;
+
+background: #C9FAD6;
+border-radius: 3.69269px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Coming Soon */
+
+width: 63px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 9.23172px;
+line-height: 24px;
+/* identical to box height, or 260% */
+
+color: #1AA703;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 9079 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 201.39px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* Check_fill */
+
+width: 22.16px;
+height: 22.16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Ip Monitoring */
+
+width: 97px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 8893 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 4.61586px;
+gap: 9.23px;
+
+width: 72.23px;
+height: 16.62px;
+
+background: #C9FAD6;
+border-radius: 3.69269px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Coming Soon */
+
+width: 63px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 9.23172px;
+line-height: 24px;
+/* identical to box height, or 260% */
+
+color: #1AA703;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 9080 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 247.39px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* Check_fill */
+
+width: 22.16px;
+height: 22.16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Subtract */
+
+position: absolute;
+width: 16.62px;
+height: 16.62px;
+left: 2.77px;
+top: 2.77px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 47 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Line_icon */
+background: #CCD2E3;
+border-radius: 1.84635px;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 66.67%;
+right: 8.33%;
+top: 37.5%;
+bottom: 29.17%;
+
+/* Line_icon */
+border: 1.84635px solid #CCD2E3;
+transform: rotate(90deg);
+
+
+/* Backlink Monitoring */
+
+width: 143px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.7708px;
+line-height: 24px;
+/* identical to box height, or 162% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 8894 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 4.61586px;
+gap: 9.23px;
+
+width: 72.23px;
+height: 16.62px;
+
+background: #C9FAD6;
+border-radius: 3.69269px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Coming Soon */
+
+width: 63px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 9.23172px;
+line-height: 24px;
+/* identical to box height, or 260% */
+
+color: #1AA703;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 9082 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 276.03px;
+height: 65.93px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18.4635px 64.6221px;
+gap: 9.23px;
+
+width: 276.03px;
+height: 36.93px;
+
+background: #F9D783;
+border-radius: 3.69269px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* BackOrder */
+
+width: 147px;
+height: 23px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14.7708px;
+line-height: 22px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #000B6B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* No credit card required */
+
+width: 150px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12.9244px;
+line-height: 24px;
+/* identical to box height, or 186% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* q */
+
+position: absolute;
+width: 412.58px;
+height: 93.19px;
+left: 252.04px;
+top: 268.72px;
+
+font-family: 'Elrotex Swash';
+font-style: normal;
+font-weight: 400;
+font-size: 91.4095px;
+line-height: 91px;
+letter-spacing: 0.01em;
+
+color: #F9D783;
+
+transform: rotate(0.86deg);
+
+
+/* Pick a plan that’s right for you */
+
+position: absolute;
+width: 830.15px;
+height: 144.22px;
+left: 36px;
+top: 177px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 62.6808px;
+line-height: 75px;
+/* or 120% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* color 4 */
+color: #000B33;
+
+
+
+/* Pricing plans for businesses at every stage of growth. Try our risk-free for 14 days. No credit card required. */
+
+position: absolute;
+width: 459px;
+height: 136px;
+left: 221px;
+top: 366px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 34px;
+/* or 136% */
+text-align: center;
+
+color: #0D0303;
+
+
+
+/* Frame 9085 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 9px;
+
+position: absolute;
+width: 492px;
+height: 115px;
+left: 212px;
+top: 916px;
+
+
+
+/* Payment Methods */
+
+width: 203px;
+height: 26px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 26px;
+/* identical to box height, or 104% */
+text-align: center;
+
+color: #0D0303;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 8888 */
+
+width: 391px;
+height: 45px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* image 50 */
+
+position: absolute;
+width: 298px;
+height: 27px;
+left: 50.5px;
+top: 45px;
+
+background: url(image.png);
+
+
+/* image 51 */
+
+position: absolute;
+width: 87px;
+height: 45px;
+left: 354.5px;
+top: 35px;
+
+background: url(image);
+
+
+/* We accept Visa, American Express, Mastercard, Paypal and Crypto */
+
+width: 492px;
+height: 26px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-align: center;
+
+color: #0D0303;
+
+opacity: 0.9;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Try our 100% free Plan */
+
+position: absolute;
+width: 480px;
+height: 58px;
+left: 218px;
+top: 704px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height, or 120% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+
+/* color 4 */
+color: #000B33;
+
+
+
+/* Group 427318024 */
+
+position: absolute;
+width: 509.17px;
+height: 77px;
+left: 195px;
+top: 791px;
+
+
+
+/* Frame 9084 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 28px 39px;
+gap: 10px;
+
+position: absolute;
+width: 509.17px;
+height: 77px;
+left: 195px;
+top: 791px;
+
+/* color 5 */
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Get started with our free plan and make 10 lookups per month absolutely free! */
+
+width: 292px;
+height: 52px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 70px;
+gap: 10px;
+
+width: 129.17px;
+height: 40px;
+
+background: #F9D783;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* BackOrder */
+
+width: 111px;
+height: 24px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #000B6B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;

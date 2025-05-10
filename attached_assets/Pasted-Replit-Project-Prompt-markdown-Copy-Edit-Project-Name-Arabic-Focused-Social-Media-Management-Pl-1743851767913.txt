@@ -1,0 +1,126 @@
+Replit Project Prompt
+markdown
+Copy
+Edit
+### Project Name: Arabic-Focused Social Media Management Platform
+
+### Project Overview:
+I want to build a **scalable social media management platform** targeting Arabic-speaking users globally, including the MENA region and Arabic-speaking diasporas in countries like the United States, Europe, Canada, and Australia. The platform will offer accessible and competitive pricing plans, starting from $9 per month for individuals and freelancers, and $20-$30 per month for businesses and agencies.
+
+### Objective:
+The primary goal of this project is to create a **SaaS platform** that enables users to:
+- Schedule and publish posts across various social media platforms.
+- Analyze social media performance through detailed analytics dashboards.
+- Manage subscriptions and payments using integrated payment processors.
+- Ensure scalability for growing user bases and feature expansion.
+- Support multi-language interfaces, focusing primarily on Arabic and English.
+
+---
+
+### Tech Stack Overview:
+
+#### Frontend:
+- **Replit** (Development Environment)
+- **React** (UI Framework)
+- **Tailwind CSS** (Styling Framework)
+- **Netlify** (Deployment and Hosting)
+- **RevenueCat SDK** (Subscription Management)
+
+#### Backend:
+- **Supabase** (Database, Authentication, Storage, Real-Time)
+- **Stripe** (Payment Processing)
+- **OpenPanel** (Analytics Dashboard)
+- **Node.js / Express** (API handling if needed)
+- **Serverless Functions (Netlify Functions)** (For handling backend logic)
+
+#### APIs to Integrate:
+- **Facebook Graph API**
+- **Instagram Graph API**
+- **Twitter API v2**
+- **LinkedIn API**
+- **Snapchat API**
+
+---
+
+### File and Folder Structure:
+
+/root |-- /frontend | |-- /components # Reusable React components (e.g., buttons, inputs, modals) | |-- /pages # Next.js or React Router pages for different routes | |-- /public # Static files (e.g., images, icons) | |-- /styles # Tailwind CSS or custom CSS files | |-- /utils # Helper functions and utilities | |-- App.js # Main React component rendering your application | |-- index.js # Entry point for React app | |-- tailwind.config.js # Tailwind CSS configuration file | |-- package.json # Dependencies and project metadata | |-- /backend | |-- /api # API routes (e.g., user auth, data fetching) | |-- /database # Supabase configuration and interaction scripts | |-- /functions # Netlify serverless functions | |-- /utils # Backend utilities (e.g., error handling, logging) | |-- supabaseClient.js # Configuration file for Supabase | |-- server.js # Express server file (if needed) | |-- /analytics | |-- /openpanel # Configuration and integration with OpenPanel | |-- tracking.js # Script for capturing and sending analytics data | |-- /subscriptions | |-- /revenuecat # Integration files for RevenueCat SDK | |-- revenuecatConfig.js # Configuration file for RevenueCat | |-- /payments | |-- /stripe # Configuration and integration files for Stripe | |-- stripeConfig.js # Stripe setup and API key handling | |-- .gitignore # Ignored files for Git |-- README.md # Documentation for your project |-- package.json # Project dependencies and scripts
+
+markdown
+Copy
+Edit
+
+---
+
+### Frontend / Backend Guidelines:
+
+#### **Frontend Guidelines:**
+- Use **React** with functional components and hooks for better state management and performance.
+- Styling should be done using **Tailwind CSS** for a responsive and modern UI.
+- Implement **React Router** for handling different pages/routes.
+- Ensure **accessibility and localization (Arabic/English)** are prioritized in the design.
+
+#### **Backend Guidelines:**
+- Use **Supabase** for database management, authentication, and real-time updates.
+- Implement **Serverless Functions (Netlify Functions)** for handling API requests and backend logic.
+- Use **Stripe and RevenueCat** for managing subscriptions and payments securely.
+- Secure sensitive data using **environment variables**.
+- Ensure data privacy and compliance with **data protection regulations** (e.g., GDPR).
+
+---
+
+### Environment Variables:
+Store all sensitive information in a `.env` file to maintain security.
+
+SUPABASE_URL=your-supabase-url SUPABASE_KEY=your-supabase-api-key REVENUECAT_KEY=your-revenuecat-key STRIPE_KEY=your-stripe-api-key OPENPANEL_URL=your-openpanel-url
+
+yaml
+Copy
+Edit
+
+---
+
+### Replit Setup Instructions:
+
+#### Step 1: Create a New Replit Project
+- Choose **Node.js** as the environment.
+- Paste the prompt above into the **project description**.
+
+#### Step 2: Initialize Project
+```bash
+npm init -y
+npm install react react-dom next tailwindcss supabase-js stripe openpanel revenuecat express
+Step 3: Create Required Folders and Files
+bash
+Copy
+Edit
+mkdir -p frontend/components frontend/pages frontend/public frontend/styles frontend/utils
+mkdir -p backend/api backend/database backend/functions backend/utils
+mkdir -p analytics/openpanel subscriptions/revenuecat payments/stripe
+touch .gitignore README.md package.json .env
+Step 4: Add Basic Scripts to package.json
+json
+Copy
+Edit
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "backend": "node backend/server.js"
+}
+Step 5: Run the Project
+bash
+Copy
+Edit
+npm run dev
+Key Deliverables:
+Frontend built with React and styled with Tailwind CSS.
+
+Backend services configured with Supabase, Stripe, RevenueCat, and OpenPanel.
+
+Deployment via Netlify with serverless functions.
+
+Integration with social media APIs (Facebook, Instagram, Twitter, LinkedIn, Snapchat).
+
+Detailed README file explaining setup and features.
+

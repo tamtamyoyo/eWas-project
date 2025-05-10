@@ -1,0 +1,82 @@
+✅ Setting Up Instagram Business API Webhooks on Replit (eWasl)
+You need to create a new route file and update your main server file to handle the Instagram Webhook.
+
+📂 Step 1: Create a New Route File for Instagram Webhooks
+1. Create a New File in Your Replit Project
+Create a file named instagram.js inside your server/routes/ folder (or wherever you keep your routes).
+
+2. Add the Following Code to instagram.js
+javascript
+Copy code
+const express = require('express');
+const router = express.Router();
+
+router.use(express.json());
+
+const VERIFY_TOKEN = "eWaslToken123"; // Replace with your verify token
+
+// This handles the verification request from Instagram
+router.get('/webhook', (req, res) => {
+    const mode = req.query['hub.mode'];
+    const token = req.query['hub.verify_token'];
+    const challenge = req.query['hub.challenge'];
+
+    if (mode && token === VERIFY_TOKEN) {
+        console.log('WEBHOOK VERIFIED');
+        res.status(200).send(challenge);
+    } else {
+        res.sendStatus(403); // Forbidden
+    }
+});
+
+// This handles incoming POST requests from Instagram
+router.post('/webhook', (req, res) => {
+    console.log('Received Instagram Webhook Event:', JSON.stringify(req.body, null, 2));
+    res.sendStatus(200); // Acknowledge receipt of the event
+});
+
+module.exports = router;
+📂 Step 2: Add the Route to Your Server
+Open your main server file (server/app.js or server/index.js).
+
+Add the following code to include the new Instagram route:
+
+javascript
+Copy code
+const instagramRoutes = require('./routes/instagram');  // Adjust the path if necessary
+app.use('/instagram', instagramRoutes);
+🌐 Step 3: Deploy Your Replit App
+Save all your changes.
+
+Run your Replit server.
+
+Make sure your website URL (https://app.ewasl.com/) is running and accessible.
+
+🔗 Step 4: Add Your Callback URL to Facebook App
+In your Facebook Developer Dashboard:
+
+Go to API setup with Instagram Business login.
+
+Set the Callback URL to:
+
+arduino
+Copy code
+https://app.ewasl.com/instagram/webhook
+Set the Verify Token to the same one you used in your code:
+
+nginx
+Copy code
+eWaslToken123
+Click Verify and Save.
+
+📌 Step 5: Test Your Webhook
+Use the Graph API Explorer or make a request like:
+
+bash
+Copy code
+curl -X POST "https://graph.facebook.com/v14.0/{YOUR_APP_ID}/subscriptions" \
+  -d "object=page" \
+  -d "callback_url=https://app.ewasl.com/instagram/webhook" \
+  -d "fields=instagram_business_account" \
+  -d "verify_token=eWaslToken123" \
+  -d "access_token={YOUR_ACCESS_TOKEN}"

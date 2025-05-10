@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
+
+@layer base {
+  /* RTL Support */
+  [dir="rtl"] {
+    text-align: right;
+  }
+  
+  [dir="rtl"] .reverse-rtl {
+    flex-direction: row-reverse;
+  }
+
+  :root {
+    /* eWasl brand colors - Light theme */
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 207 90% 54%; /* Blue primary brand color */
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 45 100% 60%; /* Gold accent color */
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 207 90% 54%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* eWasl brand colors - Dark theme */
+    --background: 222.2 47.4% 8.2%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 47.4% 10.2%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 47.4% 8.2%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 207 90% 61%; /* Slightly brighter blue for dark mode */
+    --primary-foreground: 210 40% 98%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 45 95% 50%; /* Deeper gold for dark mode */
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 207 90% 61%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  /* Default to Cairo for Arabic as primary language */
+  html {
+    font-family: 'Cairo', sans-serif;
+    @apply bg-background text-foreground;
+  }
+
+  body {
+    @apply font-sans antialiased transition-colors duration-300;
+    /* Direction is set dynamically based on language preference */
+  }
+
+  /* RTL support for specific elements */
+  .rtl-flip {
+    @apply rtl:scale-x-[-1];
+  }
+  
+  .ltr {
+    direction: ltr;
+  }
+  
+  .rtl {
+    direction: rtl;
+  }
+  
+  /* Use Cairo font for Arabic text, Inter for English */
+  :lang(ar) {
+    font-family: 'Cairo', sans-serif;
+  }
+  
+  :lang(en) {
+    font-family: 'Inter', sans-serif;
+    direction: ltr;
+  }
+  
+  /* Dark mode specific styles */
+  .dark .shadow-light {
+    @apply shadow-none;
+  }
+  
+  .dark .shadow-dark {
+    @apply shadow-md shadow-gray-900;
+  }
+  
+  /* Make header consistent in dark mode */
+  .dark header, .dark .bg-white {
+    @apply bg-card;
+  }
+  
+  /* Ensure sidebar and cards in dark mode */
+  .dark aside, .dark .card, .dark [class*="Card"] {
+    @apply bg-card text-card-foreground;
+  }
+  
+  /* Make input fields in dark mode visible */
+  .dark input, .dark textarea, .dark select {
+    @apply bg-muted border-input;
+  }
+  
+  /* Animation for theme transition */
+  .theme-transition {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  
+  /* Proper styling for dark mode buttons */
+  .dark button.bg-primary {
+    @apply text-primary-foreground;
+  }
+  
+  .dark button.bg-neutral-50 {
+    @apply bg-secondary text-secondary-foreground;
+  }
+}

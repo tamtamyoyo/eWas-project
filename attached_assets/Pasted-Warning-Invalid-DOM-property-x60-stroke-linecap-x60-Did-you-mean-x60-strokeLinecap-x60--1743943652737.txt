@@ -1,0 +1,66 @@
+Warning: Invalid DOM property &#x60;stroke-linecap&#x60;. Did you mean &#x60;strokeLinecap&#x60;?
+    at svg
+    at div
+    at div
+    at div
+    at _c9 (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/ui/card.tsx:114:12)
+    at div
+    at _c (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/ui/card.tsx:20:11)
+    at ProfileSummary (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/pages/Dashboard.tsx:99:17)
+    at div
+    at div
+    at div
+    at https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-O6VQCQVQ.js?v=54159510:41:13
+    at Presence (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7PXYZ3J7.js?v=54159510:24:11)
+    at https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tabs.js?v=54159510:173:13
+    at _c5 (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/ui/tabs.tsx:72:12)
+    at div
+    at https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-O6VQCQVQ.js?v=54159510:41:13
+    at Provider (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-KF7TDO2V.js?v=54159510:38:15)
+    at https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tabs.js?v=54159510:51:7
+    at AnalyticsTabs (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/pages/Dashboard.tsx:928:17)
+    at Dashboard (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/pages/Dashboard.tsx:1518:17)
+    at ProtectedRoute (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/App.tsx?v=w2oSPCZd38tKf83ZgShvL:38:38)
+    at div
+    at div
+    at main
+    at div
+    at AppLayout (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/layout/AppLayout.tsx:23:37)
+    at Route (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=54159510:323:16)
+    at Switch (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=54159510:379:17)
+    at App
+    at ThemeProvider (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/ui/theme-provider.tsx?v=w2oSPCZd38tKf83ZgShvL:25:3)
+    at QueryClientProvider (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=54159510:2805:3)
+Warning: Invalid DOM property &#x60;stroke-linejoin&#x60;. Did you mean &#x60;strokeLinejoin&#x60;?
+    at svg
+    at div
+    at div
+    at div
+    at _c9 (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/ui/card.tsx:114:12)
+    at div
+    at _c (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/ui/card.tsx:20:11)
+    at ProfileSummary (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/pages/Dashboard.tsx:99:17)
+    at div
+    at div
+    at div
+    at https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-O6VQCQVQ.js?v=54159510:41:13
+    at Presence (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7PXYZ3J7.js?v=54159510:24:11)
+    at https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tabs.js?v=54159510:173:13
+    at _c5 (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/ui/tabs.tsx:72:12)
+    at div
+    at https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-O6VQCQVQ.js?v=54159510:41:13
+    at Provider (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-KF7TDO2V.js?v=54159510:38:15)
+    at https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tabs.js?v=54159510:51:7
+    at AnalyticsTabs (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/pages/Dashboard.tsx:928:17)
+    at Dashboard (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/pages/Dashboard.tsx:1518:17)
+    at ProtectedRoute (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/App.tsx?v=w2oSPCZd38tKf83ZgShvL:38:38)
+    at div
+    at div
+    at main
+    at div
+    at AppLayout (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/layout/AppLayout.tsx:23:37)
+    at Route (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=54159510:323:16)
+    at Switch (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=54159510:379:17)
+    at App
+    at ThemeProvider (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/ui/theme-provider.tsx?v=w2oSPCZd38tKf83ZgShvL:25:3)
+    at QueryClientProvider (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=54159510:2805:3)

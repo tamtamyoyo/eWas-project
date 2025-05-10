@@ -1,0 +1,21 @@
+# Supabase Configuration
+SUPABASE_URL=https://your-project-id.supabase.co
+SUPABASE_ANON_KEY=your-anon-key
+SUPABASE_SERVICE_KEY=your-service-key
+
+# Source Database (NeonDB)
+DATABASE_URL=postgresql://username:password@your-neon-db-host/dbname
+
+# Application Configuration
+NODE_ENV=development
+APP_URL=http://localhost:3000
+
+# OAuth Redirect URLs
+GOOGLE_REDIRECT_URL=http://localhost:3000/auth/google/callback
+TWITTER_REDIRECT_URL=http://localhost:3000/auth/twitter/callback
+FACEBOOK_REDIRECT_URL=http://localhost:3000/auth/facebook/callback
+
+# Other API Keys (if needed)
+OPENAI_API_KEY=your-openai-api-key
+STRIPE_SECRET_KEY=your-stripe-secret-key
+STRIPE_WEBHOOK_SECRET=your-stripe-webhook-secret 

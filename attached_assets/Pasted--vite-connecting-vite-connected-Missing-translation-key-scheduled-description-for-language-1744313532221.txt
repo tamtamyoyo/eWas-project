@@ -1,0 +1,33 @@
+[vite] connecting...
+[vite] connected.
+Missing translation key: scheduled.description for language: ar in namespace: translation
+Missing translation key: scheduled.deleteWarning for language: ar in namespace: translation
+Missing translation key: common.cancel for language: ar in namespace: translation
+`TabsList` must be used within `Tabs`
+Missing translation key: scheduled.description for language: ar in namespace: translation
+Missing translation key: scheduled.deleteWarning for language: ar in namespace: translation
+Missing translation key: common.cancel for language: ar in namespace: translation
+`TabsList` must be used within `Tabs`
+The above error occurred in the <TabsList> component:
+
+    at https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tabs.js?v=fc88b575:93:13
+    at _c (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/ui/tabs.tsx:22:11)
+    at div
+    at div
+    at div
+    at div
+    at NewScheduled (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/pages/NewScheduled.tsx?t=1744312494842:93:17)
+    at ProtectedRoute (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/App.tsx?t=1744312501706&v=Casd_arFWrGH9gA8sihN7:44:38)
+    at div
+    at div
+    at main
+    at div
+    at AppLayout (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/layout/AppLayout.tsx:26:37)
+    at Route (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=fc88b575:323:16)
+    at Switch (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=fc88b575:379:17)
+    at App
+    at ThemeProvider (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/src/components/ui/theme-provider.tsx?v=Casd_arFWrGH9gA8sihN7:25:3)
+    at QueryClientProvider (https://fef338dc-e049-44e4-a807-4f4800367452-00-2nzpmkm3jlqvg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=fc88b575:2805:3)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.

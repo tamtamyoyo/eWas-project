@@ -1,0 +1,12053 @@
+/* Dashboard */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 1500px;
+height: 1477px;
+
+background: #FFFFFF;
+
+
+/* Sidebar */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 275px;
+height: 1477px;
+
+border-right: 1.5px solid #F1F1F4;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Logo Header */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 24px;
+gap: 10px;
+
+width: 275px;
+height: 74px;
+
+border-bottom: 1px solid #E5E7EB;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 159px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* logo-70 */
+
+width: 62px;
+height: 23px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 33.07%;
+top: 0%;
+bottom: 0%;
+
+background: #6A0CF8;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.07%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #6A0CF8;
+
+
+/* Boostly */
+
+width: 89px;
+height: 32px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 32px;
+/* identical to box height */
+letter-spacing: -0.04em;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 76 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 32px;
+
+width: 275px;
+height: 432px;
+
+border-right: 1.5px solid #F1F1F4;
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 227px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 227px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 6 */
+
+margin: 0 auto;
+width: 158px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+background: #E3DCEE;
+border-radius: 4px;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 9.38%;
+bottom: 9.38%;
+
+border: 1.25px solid #6A0CF8;
+
+
+/* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 102px;
+height: 40px;
+left: 50px;
+top: 1px;
+
+
+
+/* My Workspace */
+
+margin: 0 auto;
+width: 102px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Free Plan */
+
+margin: 0 auto;
+width: 54px;
+height: 15px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+margin: 0 auto;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 34.38%;
+right: 34.38%;
+top: 21.88%;
+bottom: 21.88%;
+
+border: 1.5px solid #000000;
+
+
+/* Frame 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 227px;
+height: 336px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Main Menu */
+
+width: 227px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 227px;
+height: 304px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Nav Active */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 12px;
+gap: 12px;
+
+width: 227px;
+height: 40px;
+
+background: rgba(106, 12, 248, 0.05);
+border: 1px solid rgba(106, 12, 248, 0.5);
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 9.38%;
+top: 11.32%;
+bottom: 12.5%;
+
+border: 1.5px solid #6A0CF8;
+
+
+/* Overview */
+
+width: 67px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #6A0CF8;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Nav */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 12px;
+gap: 10px;
+
+width: 227px;
+height: 40px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 9.38%;
+bottom: 9.38%;
+
+border: 1.25px solid #8A8AA3;
+
+
+/* Create Content */
+
+width: 107px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Nav */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 12px;
+gap: 10px;
+
+width: 227px;
+height: 40px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.49%;
+right: 12.51%;
+top: 12.47%;
+bottom: 12.53%;
+
+border: 1.25px solid #8A8AA3;
+
+
+/* Campaign */
+
+width: 71px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Nav */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 12px;
+gap: 10px;
+
+width: 227px;
+height: 40px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.25px solid #8A8AA3;
+
+
+/* Schedule */
+
+width: 65px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Nav */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 12px;
+gap: 10px;
+
+width: 227px;
+height: 40px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 9.38%;
+bottom: 9.37%;
+
+border: 1.25px solid #8A8AA3;
+
+
+/* Connect Account */
+
+width: 121px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Nav */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 12px;
+gap: 10px;
+
+width: 227px;
+height: 40px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 9.38%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.25px solid #8A8AA3;
+
+
+/* Analytic */
+
+width: 55px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Nav */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 12px;
+gap: 10px;
+
+width: 227px;
+height: 40px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.19%;
+right: 14.19%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.5px solid #8A8AA3;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 37.5%;
+bottom: 37.5%;
+
+border: 1.25px solid #8A8AA3;
+
+
+/* Settings */
+
+width: 58px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Main Content */
+
+width: 1225px;
+height: 1477px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Untitled design 1 */
+
+position: absolute;
+width: 1225px;
+height: 1125px;
+left: 0px;
+top: -52px;
+
+background: url(Untitled design.png);
+
+
+/* Frame 73 */
+
+position: absolute;
+width: 280px;
+height: 56px;
+left: 32px;
+top: 104px;
+
+
+
+/* Overview */
+
+position: absolute;
+width: 106px;
+height: 30px;
+left: 0px;
+top: 0px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.04em;
+
+color: #120F43;
+
+
+
+/* Let's see an overview of your social media */
+
+position: absolute;
+width: 280px;
+height: 18px;
+left: 0px;
+top: 38px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 32px;
+gap: 30px;
+
+position: absolute;
+width: 1225px;
+height: 671px;
+left: 0px;
+top: 763px;
+
+
+
+/* Card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 731px;
+height: 671px;
+
+background: #FFFFFF;
+border: 1.5px solid #F1F1F4;
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.03);
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Card Header */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 18px 30px;
+gap: 10px;
+
+width: 731px;
+height: 82px;
+min-height: 56px;
+
+border-bottom: 1.5px solid #F1F1F4;
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 67 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 671px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Post Schedule */
+
+width: 477px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.01em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 66 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 133px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* November 2024 */
+
+width: 111px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 14px;
+height: 14px;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 34.38%;
+bottom: 34.38%;
+
+border: 1.5px solid rgba(18, 15, 67, 0.7);
+
+
+/* Card Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 24px 30px;
+gap: 16px;
+
+width: 731px;
+height: 589px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 43 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 671px;
+height: 49px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 51 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 6px;
+gap: 8px;
+
+margin: 0 auto;
+width: 28px;
+height: 28px;
+
+border: 1px solid rgba(106, 12, 248, 0.5);
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 34.38%;
+right: 34.38%;
+top: 18.75%;
+bottom: 18.75%;
+
+border: 1.5px solid #6A0CF8;
+
+
+/* Frame 45 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+gap: 8px;
+
+margin: 0 auto;
+width: 87.86px;
+height: 49px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Mon */
+
+width: 28px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 15 */
+
+width: 20px;
+height: 25px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: -0.04em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 45 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+gap: 8px;
+
+margin: 0 auto;
+width: 87.86px;
+height: 49px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Tue */
+
+width: 23px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 16 */
+
+width: 19px;
+height: 25px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: -0.04em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 46 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+gap: 8px;
+
+margin: 0 auto;
+width: 87.86px;
+height: 49px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Wed */
+
+width: 30px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 17 */
+
+width: 19px;
+height: 25px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: -0.04em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 47 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+gap: 8px;
+
+margin: 0 auto;
+width: 87.86px;
+height: 49px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Thu */
+
+width: 23px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 18 */
+
+width: 20px;
+height: 25px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: -0.04em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 48 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+gap: 8px;
+isolation: isolate;
+
+margin: 0 auto;
+width: 87.86px;
+height: 49px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+
+/* Fri */
+
+width: 16px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(106, 12, 248, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* 19 */
+
+width: 20px;
+height: 25px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: -0.04em;
+
+color: #6A0CF8;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 25px;
+height: 25px;
+left: 30.57px;
+top: 23px;
+
+background: rgba(106, 12, 248, 0.1);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Frame 49 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+gap: 8px;
+
+margin: 0 auto;
+width: 87.86px;
+height: 49px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Sat */
+
+width: 22px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 20 */
+
+width: 26px;
+height: 25px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: -0.04em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 50 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+gap: 8px;
+
+margin: 0 auto;
+width: 87.86px;
+height: 49px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Sun */
+
+width: 24px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 21 */
+
+width: 19px;
+height: 25px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: -0.04em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 52 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 6px;
+gap: 8px;
+
+margin: 0 auto;
+width: 28px;
+height: 28px;
+
+border: 1px solid rgba(106, 12, 248, 0.5);
+border-radius: 30px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 16px;
+height: 16px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 65.62%;
+right: 3.12%;
+top: 18.75%;
+bottom: 18.75%;
+
+border: 1.5px solid #6A0CF8;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Frame 57 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 683px;
+height: 230px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 54 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 0px;
+gap: 16px;
+
+width: 683px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 12:00 */
+
+width: 37px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 2 */
+
+width: 630px;
+height: 0px;
+
+border: 1px solid #E5E7EB;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Frame 65 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 683px;
+height: 186px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 55 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 16px;
+gap: 10px;
+isolation: isolate;
+
+width: 211.67px;
+height: 186px;
+
+border: 2px solid #E5E7EB;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 59 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 179.67px;
+height: 146px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 58 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 179.67px;
+height: 88px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 56 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 98px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 3225191_app_instagram_logo_media_popular_icon 1 */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(45deg, #FFD521 14.64%, #FFD020 18.54%, #FEC01E 23.42%, #FCA71B 28.82%, #FA8316 34.59%, #F85510 40.67%, #F51E09 46.91%, #F30005 50%, #F20007 50.25%, #E1003B 56.83%, #D30067 63.29%, #C70088 69.49%, #BF00A0 75.38%, #BB00AF 80.81%, #B900B4 85.36%);
+
+
+/* Group */
+
+position: absolute;
+left: 15.86%;
+right: 15.86%;
+top: 15.87%;
+bottom: 15.86%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 15.86%;
+right: 15.86%;
+top: 15.87%;
+bottom: 15.86%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 32.47%;
+right: 32.47%;
+top: 32.47%;
+bottom: 32.47%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 64.12%;
+right: 27.68%;
+top: 27.68%;
+bottom: 64.12%;
+
+background: #FFFFFF;
+
+
+/* Instagram */
+
+width: 70px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Have yourself a Bali countryside—raw nature, peaceful vibes... */
+
+width: 179.67px;
+height: 60px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 150%;
+/* or 20px */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 68 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 208.15px;
+height: 42px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 7 */
+
+width: 54.38px;
+height: 42px;
+
+background: url(.jpg);
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.16);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 8 */
+
+width: 54.38px;
+height: 42px;
+
+background: url(.jpg);
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.16);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 69 */
+
+width: 83.38px;
+height: 42px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 54.38px;
+height: 42px;
+left: 0px;
+top: 0px;
+
+background: #E3DCEE;
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.16);
+border-radius: 8px;
+
+
+/* 5+ */
+
+position: absolute;
+width: 21px;
+height: 20px;
+left: 16.23px;
+top: 11px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.15px;
+
+color: #6A0CF8;
+
+
+
+/* Frame */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 15.67px;
+top: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Vector */
+
+position: absolute;
+left: 46.88%;
+right: 46.88%;
+top: 21.88%;
+bottom: 21.88%;
+
+border: 1.5px solid #000000;
+
+
+/* Frame 56 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 16px;
+gap: 10px;
+isolation: isolate;
+
+width: 211.67px;
+height: 186px;
+
+border: 2px solid #E5E7EB;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 59 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 179.67px;
+height: 146px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 58 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 179.67px;
+height: 88px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 56 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 98px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 5365678_fb_facebook_facebook logo_icon 1 */
+
+width: 20px;
+height: 20px;
+
+border-radius: 1px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1777F2;
+
+
+/* Facebook */
+
+width: 70px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Have yourself a Bali countryside—raw nature, peaceful vibes... */
+
+width: 179.67px;
+height: 60px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 150%;
+/* or 20px */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 7 */
+
+width: 61.38px;
+height: 42px;
+
+background: url(.jpg);
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.16);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 15.67px;
+top: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Vector */
+
+position: absolute;
+left: 46.88%;
+right: 46.88%;
+top: 21.88%;
+bottom: 21.88%;
+
+border: 1.5px solid #000000;
+
+
+/* Frame 57 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 16px;
+gap: 10px;
+isolation: isolate;
+
+width: 211.67px;
+height: 128px;
+
+border: 2px solid #E5E7EB;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 59 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 179.67px;
+height: 88px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 58 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 179.67px;
+height: 88px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 56 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 77px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 11053970_x_logo_twitter_new_brand_icon 1 */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 4.17%;
+bottom: 4.17%;
+
+background: #000000;
+
+
+/* Twitter */
+
+width: 49px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Pemandangan Dahsyat dari Atas Tebing Pantai Blue Point, Bali de.tk/jOy5D */
+
+width: 179.67px;
+height: 60px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 150%;
+/* or 20px */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 15.67px;
+top: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Vector */
+
+position: absolute;
+left: 46.88%;
+right: 46.88%;
+top: 21.88%;
+bottom: 21.88%;
+
+border: 1.5px solid #000000;
+
+
+/* Frame 58 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 683px;
+height: 230px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 54 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 0px;
+gap: 16px;
+
+width: 683px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 17:00 */
+
+width: 37px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 2 */
+
+width: 630px;
+height: 0px;
+
+border: 1px solid #E5E7EB;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Frame 65 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 683px;
+height: 186px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 55 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 16px;
+gap: 10px;
+isolation: isolate;
+
+width: 211.67px;
+height: 186px;
+
+border: 2px solid #E5E7EB;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 59 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 179.67px;
+height: 146px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 58 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 179.67px;
+height: 88px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 56 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 98px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 3225191_app_instagram_logo_media_popular_icon 1 */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(45deg, #FFD521 14.64%, #FFD020 18.54%, #FEC01E 23.42%, #FCA71B 28.82%, #FA8316 34.59%, #F85510 40.67%, #F51E09 46.91%, #F30005 50%, #F20007 50.25%, #E1003B 56.83%, #D30067 63.29%, #C70088 69.49%, #BF00A0 75.38%, #BB00AF 80.81%, #B900B4 85.36%);
+
+
+/* Group */
+
+position: absolute;
+left: 15.86%;
+right: 15.86%;
+top: 15.87%;
+bottom: 15.86%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 15.86%;
+right: 15.86%;
+top: 15.87%;
+bottom: 15.86%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 32.47%;
+right: 32.47%;
+top: 32.47%;
+bottom: 32.47%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 64.12%;
+right: 27.68%;
+top: 27.68%;
+bottom: 64.12%;
+
+background: #FFFFFF;
+
+
+/* Instagram */
+
+width: 70px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Exploring waterfalls is one of my favorite things to do. The water was freezing... */
+
+width: 179.67px;
+height: 60px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 150%;
+/* or 20px */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 68 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 208.15px;
+height: 42px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 7 */
+
+width: 54.38px;
+height: 42px;
+
+background: url(.jpg);
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.16);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 8 */
+
+width: 54.38px;
+height: 42px;
+
+background: url(.jpg);
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.16);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 69 */
+
+width: 83.38px;
+height: 42px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 54.38px;
+height: 42px;
+left: 0px;
+top: 0px;
+
+background: #E3DCEE;
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.16);
+border-radius: 8px;
+
+
+/* 3+ */
+
+position: absolute;
+width: 21px;
+height: 20px;
+left: 16.23px;
+top: 11px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.15px;
+
+color: #6A0CF8;
+
+
+
+/* Frame */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 15.67px;
+top: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Vector */
+
+position: absolute;
+left: 46.88%;
+right: 46.88%;
+top: 21.88%;
+bottom: 21.88%;
+
+border: 1.5px solid #000000;
+
+
+/* Frame 57 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 16px;
+gap: 10px;
+isolation: isolate;
+
+width: 211.67px;
+height: 186px;
+
+border: 2px solid #E5E7EB;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 59 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 179.67px;
+height: 146px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 58 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 179.67px;
+height: 88px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 56 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 77px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 11053970_x_logo_twitter_new_brand_icon 1 */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 4.17%;
+bottom: 4.17%;
+
+background: #000000;
+
+
+/* Twitter */
+
+width: 49px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Exploring waterfalls is one of my favorite things to do. The water was freezing... */
+
+width: 179.67px;
+height: 60px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 150%;
+/* or 20px */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 7 */
+
+width: 61.38px;
+height: 42px;
+
+background: url(.jpg);
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.16);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 15.67px;
+top: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Vector */
+
+position: absolute;
+left: 46.88%;
+right: 46.88%;
+top: 21.88%;
+bottom: 21.88%;
+
+border: 1.5px solid #000000;
+
+
+/* Card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 400px;
+height: 567px;
+
+background: #FFFFFF;
+border: 1.5px solid #F1F1F4;
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.03);
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Card Header */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 18px 30px;
+gap: 10px;
+
+width: 400px;
+height: 82px;
+
+border-bottom: 1.5px solid #F1F1F4;
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 36 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 340px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Post Insights */
+
+width: 340px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.01em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 66 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 194px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* From 5 Nov — 5 Dec 2024 */
+
+width: 172px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 14px;
+height: 14px;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 34.38%;
+bottom: 34.38%;
+
+border: 1.5px solid rgba(18, 15, 67, 0.7);
+
+
+/* Card Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 24px 30px;
+gap: 16px;
+
+width: 400px;
+height: 485px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 40 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+width: 340px;
+height: 135px;
+
+border: 2px solid #E5E7EB;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 41 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 308px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 42 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 308px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 61 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 175px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 3225191_app_instagram_logo_media_popular_icon 1 */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(45deg, #FFD521 14.64%, #FFD020 18.54%, #FEC01E 23.42%, #FCA71B 28.82%, #FA8316 34.59%, #F85510 40.67%, #F51E09 46.91%, #F30005 50%, #F20007 50.25%, #E1003B 56.83%, #D30067 63.29%, #C70088 69.49%, #BF00A0 75.38%, #BB00AF 80.81%, #B900B4 85.36%);
+
+
+/* Group */
+
+position: absolute;
+left: 15.86%;
+right: 15.86%;
+top: 15.87%;
+bottom: 15.86%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 15.86%;
+right: 15.86%;
+top: 15.87%;
+bottom: 15.86%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 32.47%;
+right: 32.47%;
+top: 32.47%;
+bottom: 32.47%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 64.12%;
+right: 27.68%;
+top: 27.68%;
+bottom: 64.12%;
+
+background: #FFFFFF;
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+width: 70px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Instagram */
+
+width: 70px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 40 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 50px;
+height: 15px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 22 Posts */
+
+width: 50px;
+height: 15px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.15px;
+
+color: #2870F3;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 41 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 125px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 60 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 8px;
+gap: 10px;
+
+width: 75px;
+height: 27px;
+
+background: #F9F9F9;
+border: 1px solid rgba(106, 12, 248, 0.5);
+border-radius: 17px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* See all */
+
+width: 59px;
+height: 15px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.15px;
+
+color: #6A0CF8;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 38 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 308px;
+height: 47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 37 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 92px;
+height: 47px;
+
+border-right: 1px solid #E5E7EB;
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Audience */
+
+width: 61px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 9,431 */
+
+width: 47px;
+height: 23px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 38 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 92px;
+height: 47px;
+
+border-right: 1px solid #E5E7EB;
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Total Likes */
+
+width: 66px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 12,314 */
+
+width: 55px;
+height: 23px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 39 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 92px;
+height: 47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Followers */
+
+width: 62px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* +2,314 */
+
+width: 59px;
+height: 23px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 40 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+width: 340px;
+height: 135px;
+
+border: 2px solid #E5E7EB;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 41 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 308px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 43 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 308px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 61 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 175px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 11053970_x_logo_twitter_new_brand_icon 1 */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 4.17%;
+bottom: 4.17%;
+
+background: #000000;
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+width: 70px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Twitter */
+
+width: 70px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 40 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 51px;
+height: 15px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 34 Posts */
+
+width: 51px;
+height: 15px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.15px;
+
+color: #2870F3;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 41 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 125px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 60 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 8px;
+gap: 10px;
+
+width: 75px;
+height: 27px;
+
+background: #F9F9F9;
+border: 1px solid rgba(106, 12, 248, 0.5);
+border-radius: 17px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* See all */
+
+width: 59px;
+height: 15px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.15px;
+
+color: #6A0CF8;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 38 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 308px;
+height: 47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 37 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 92px;
+height: 47px;
+
+border-right: 1px solid #E5E7EB;
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Audience */
+
+width: 61px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 2,765 */
+
+width: 49px;
+height: 23px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 38 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 92px;
+height: 47px;
+
+border-right: 1px solid #E5E7EB;
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Total Likes */
+
+width: 66px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 5,689 */
+
+width: 51px;
+height: 23px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 39 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 92px;
+height: 47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Followers */
+
+width: 62px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* +156 */
+
+width: 41px;
+height: 23px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 40 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+width: 340px;
+height: 135px;
+
+border: 2px solid #E5E7EB;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 41 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 308px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 41 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 308px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 43 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 308px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 61 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 175px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 5365678_fb_facebook_facebook logo_icon 1 */
+
+width: 20px;
+height: 20px;
+
+border-radius: 1px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1777F2;
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+width: 70px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Facebook */
+
+width: 70px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 40 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 49px;
+height: 15px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 10 Posts */
+
+width: 49px;
+height: 15px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.15px;
+
+color: #2870F3;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 41 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 125px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 60 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 8px;
+gap: 10px;
+
+width: 75px;
+height: 27px;
+
+background: #F9F9F9;
+border: 1px solid rgba(106, 12, 248, 0.5);
+border-radius: 17px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* See all */
+
+width: 59px;
+height: 15px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.15px;
+
+color: #6A0CF8;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 38 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 308px;
+height: 47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 37 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 92px;
+height: 47px;
+
+border-right: 1px solid #E5E7EB;
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Audience */
+
+width: 61px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 12,576 */
+
+width: 56px;
+height: 23px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 38 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 92px;
+height: 47px;
+
+border-right: 1px solid #E5E7EB;
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Total Likes */
+
+width: 66px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 72,567 */
+
+width: 60px;
+height: 23px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 39 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 92px;
+height: 47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Followers */
+
+width: 62px;
+height: 16px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* +3,651 */
+
+width: 59px;
+height: 23px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 32px;
+gap: 30px;
+
+position: absolute;
+width: 1225px;
+height: 373px;
+left: 0px;
+top: 360px;
+
+
+
+/* Card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 731px;
+height: 373px;
+
+background: #FFFFFF;
+border: 1.5px solid #F1F1F4;
+/* Card Shadow */
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.03);
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Card Header */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 12px 30px;
+gap: 10px;
+
+width: 731px;
+height: 56px;
+min-height: 56px;
+
+border-bottom: 1.5px solid #F1F1F4;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Visit by Location */
+
+margin: 0 auto;
+width: 671px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.01em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Card Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 24px 30px;
+gap: 30px;
+
+width: 731px;
+height: 302px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* world 1 */
+
+width: 386px;
+height: 254px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* AD */
+
+position: absolute;
+left: 47.43%;
+right: 52.48%;
+top: 49.72%;
+bottom: 50.16%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* AE */
+
+position: absolute;
+left: 61.37%;
+right: 37.29%;
+top: 58.2%;
+bottom: 40.22%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* AF */
+
+position: absolute;
+left: 63.85%;
+right: 32.15%;
+top: 52.03%;
+bottom: 43.38%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* AG */
+
+position: absolute;
+left: 29.83%;
+right: 70.11%;
+top: 61.97%;
+bottom: 37.71%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* AI */
+
+position: absolute;
+left: 29.48%;
+right: 70.47%;
+top: 61.73%;
+bottom: 38.23%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* AL */
+
+position: absolute;
+left: 52.39%;
+right: 47.12%;
+top: 49.71%;
+bottom: 48.62%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* AM */
+
+position: absolute;
+left: 59.11%;
+right: 40.02%;
+top: 50.48%;
+bottom: 48.19%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* AO */
+
+position: absolute;
+left: 50.3%;
+right: 46.28%;
+top: 71.37%;
+bottom: 22.82%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* AR */
+
+position: absolute;
+left: 26.58%;
+right: 67.88%;
+top: 78.87%;
+bottom: 2.73%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* AS */
+
+position: absolute;
+left: 99.62%;
+right: 0.31%;
+top: 75.54%;
+bottom: 24.41%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* AT */
+
+position: absolute;
+left: 49.68%;
+right: 48.2%;
+top: 45.88%;
+bottom: 52.5%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* AU */
+
+position: absolute;
+left: 78.42%;
+right: 8.78%;
+top: 73.74%;
+bottom: 2.93%;
+
+background: #6A0CF8;
+
+
+/* AW */
+
+position: absolute;
+left: 27.56%;
+right: 72.39%;
+top: 64.19%;
+bottom: 35.73%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* AX */
+
+position: absolute;
+left: 52.46%;
+right: 47.24%;
+top: 37.51%;
+bottom: 62.16%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* AZ */
+
+position: absolute;
+left: 59.48%;
+right: 38.97%;
+top: 50.14%;
+bottom: 47.94%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BA */
+
+position: absolute;
+left: 51.41%;
+right: 47.52%;
+top: 48.18%;
+bottom: 50.24%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BB */
+
+position: absolute;
+left: 30.46%;
+right: 69.48%;
+top: 63.89%;
+bottom: 36%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BD */
+
+position: absolute;
+left: 71.5%;
+right: 27.22%;
+top: 57.96%;
+bottom: 39.39%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BE */
+
+position: absolute;
+left: 47.74%;
+right: 51.2%;
+top: 44.24%;
+bottom: 54.45%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BF */
+
+position: absolute;
+left: 45.5%;
+right: 52.3%;
+top: 63.13%;
+bottom: 34.45%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BG */
+
+position: absolute;
+left: 53.25%;
+right: 45.02%;
+top: 48.79%;
+bottom: 49.49%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BH */
+
+position: absolute;
+left: 61.06%;
+right: 38.9%;
+top: 58.11%;
+bottom: 41.68%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BI */
+
+position: absolute;
+left: 55.1%;
+right: 44.4%;
+top: 70.48%;
+bottom: 28.62%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BJ */
+
+position: absolute;
+left: 47.25%;
+right: 51.9%;
+top: 64.29%;
+bottom: 33.1%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BL */
+
+position: absolute;
+left: 29.56%;
+right: 70.42%;
+top: 61.88%;
+bottom: 38.1%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BN */
+
+position: absolute;
+left: 78.74%;
+right: 20.91%;
+top: 67.41%;
+bottom: 32.17%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BO */
+
+position: absolute;
+left: 27.68%;
+right: 68.95%;
+top: 73.6%;
+bottom: 20.64%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BM */
+
+position: absolute;
+left: 29.01%;
+right: 70.94%;
+top: 55.16%;
+bottom: 44.78%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BQ */
+
+position: absolute;
+left: 28.03%;
+right: 70.46%;
+top: 62%;
+bottom: 35.56%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BR */
+
+position: absolute;
+left: 26.47%;
+right: 62.64%;
+top: 67.31%;
+bottom: 15.46%;
+
+background: #6A0CF8;
+
+
+/* BS */
+
+position: absolute;
+left: 25.08%;
+right: 73.19%;
+top: 57.79%;
+bottom: 39.46%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BT */
+
+position: absolute;
+left: 71.7%;
+right: 27.37%;
+top: 57.14%;
+bottom: 42.1%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BV */
+
+position: absolute;
+left: 47.96%;
+right: 52%;
+top: 96.8%;
+bottom: 3.14%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BW */
+
+position: absolute;
+left: 52.59%;
+right: 44.8%;
+top: 77.08%;
+bottom: 18.81%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BY */
+
+position: absolute;
+left: 53.48%;
+right: 43.87%;
+top: 40.92%;
+bottom: 55.61%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* BZ */
+
+position: absolute;
+left: 22.23%;
+right: 77.37%;
+top: 61.64%;
+bottom: 37.23%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CA */
+
+position: absolute;
+left: 7.84%;
+right: 67.6%;
+top: 1.8%;
+bottom: 49.77%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CC */
+
+position: absolute;
+left: 73.95%;
+right: 26.02%;
+top: 74.63%;
+bottom: 25.34%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CD */
+
+position: absolute;
+left: 50.43%;
+right: 44.27%;
+top: 67.28%;
+bottom: 24.8%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CF */
+
+position: absolute;
+left: 51.05%;
+right: 45.35%;
+top: 64.88%;
+bottom: 31.44%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CG */
+
+position: absolute;
+left: 50.13%;
+right: 47.79%;
+top: 67.97%;
+bottom: 28.39%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CH */
+
+position: absolute;
+left: 48.69%;
+right: 50.06%;
+top: 46.65%;
+bottom: 52.15%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CI */
+
+position: absolute;
+left: 44.64%;
+right: 53.66%;
+top: 65%;
+bottom: 32.31%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CK */
+
+position: absolute;
+left: 2.6%;
+right: 97.37%;
+top: 78.59%;
+bottom: 21.38%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CL */
+
+position: absolute;
+left: 16.62%;
+right: 71.43%;
+top: 76.96%;
+bottom: 2.09%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CM */
+
+position: absolute;
+left: 49.41%;
+right: 48.47%;
+top: 63.99%;
+bottom: 31.19%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CN */
+
+position: absolute;
+left: 67.49%;
+right: 15.51%;
+top: 42.81%;
+bottom: 38.25%;
+
+background: #6A0CF8;
+
+
+/* CO */
+
+position: absolute;
+left: 25.07%;
+right: 71.55%;
+top: 64.27%;
+bottom: 28.71%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CR */
+
+position: absolute;
+left: 23.16%;
+right: 75.91%;
+top: 64.8%;
+bottom: 33.88%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CU */
+
+position: absolute;
+left: 23.44%;
+right: 73.57%;
+top: 59.52%;
+bottom: 38.97%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CV */
+
+position: absolute;
+left: 39.99%;
+right: 59.27%;
+top: 62.2%;
+bottom: 36.76%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CW */
+
+position: absolute;
+left: 27.81%;
+right: 72.08%;
+top: 64.29%;
+bottom: 35.57%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CX */
+
+position: absolute;
+left: 76.38%;
+right: 23.58%;
+top: 73.9%;
+bottom: 26.04%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CY */
+
+position: absolute;
+left: 56.01%;
+right: 43.36%;
+top: 53.5%;
+bottom: 45.94%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* CZ */
+
+position: absolute;
+left: 50.4%;
+right: 47.73%;
+top: 44.55%;
+bottom: 53.85%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* DE */
+
+position: absolute;
+left: 48.66%;
+right: 48.79%;
+top: 41.73%;
+bottom: 53.04%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* DJ */
+
+position: absolute;
+left: 58.64%;
+right: 40.9%;
+top: 64.15%;
+bottom: 35.1%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* DK */
+
+position: absolute;
+left: 49.29%;
+right: 48.76%;
+top: 39.7%;
+bottom: 57.95%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* DM */
+
+position: absolute;
+left: 29.95%;
+right: 69.99%;
+top: 62.88%;
+bottom: 36.94%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* DO */
+
+position: absolute;
+left: 27.02%;
+right: 71.96%;
+top: 61%;
+bottom: 37.99%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* DZ */
+
+position: absolute;
+left: 44.62%;
+right: 49.64%;
+top: 52.76%;
+bottom: 38.59%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* EC */
+
+position: absolute;
+left: 21.56%;
+right: 73.88%;
+top: 68.9%;
+bottom: 28.4%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* EG */
+
+position: absolute;
+left: 53.9%;
+right: 42.72%;
+top: 55.52%;
+bottom: 39.93%;
+
+background: #6A0CF8;
+
+
+/* EE */
+
+position: absolute;
+left: 53.11%;
+right: 45.14%;
+top: 38.16%;
+bottom: 60.14%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* EH */
+
+position: absolute;
+left: 42.28%;
+right: 55.38%;
+top: 57.45%;
+bottom: 39.4%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* ER */
+
+position: absolute;
+left: 57.16%;
+right: 40.98%;
+top: 61.85%;
+bottom: 35.71%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* ES */
+
+position: absolute;
+left: 41.99%;
+right: 51.76%;
+top: 49.07%;
+bottom: 42.54%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* ET */
+
+position: absolute;
+left: 56.21%;
+right: 39.63%;
+top: 63.22%;
+bottom: 31.94%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* FI */
+
+position: absolute;
+left: 52.77%;
+right: 44.2%;
+top: 27.68%;
+bottom: 61.99%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* FJ */
+
+position: absolute;
+left: 95.56%;
+right: 2.45%;
+top: 74.78%;
+bottom: 21.17%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* FK */
+
+position: absolute;
+left: 30.04%;
+right: 69.03%;
+top: 94.63%;
+bottom: 4.66%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* FM */
+
+position: absolute;
+left: 85.41%;
+right: 7.66%;
+top: 65.48%;
+bottom: 32.7%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* FO */
+
+position: absolute;
+left: 44.97%;
+right: 54.75%;
+top: 35.8%;
+bottom: 63.36%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* FR */
+
+position: absolute;
+left: 45.71%;
+right: 50.31%;
+top: 44.51%;
+bottom: 49.57%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GA */
+
+position: absolute;
+left: 49.45%;
+right: 48.94%;
+top: 68.55%;
+bottom: 28.85%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GB */
+
+position: absolute;
+left: 44.77%;
+right: 52.48%;
+top: 37.14%;
+bottom: 54.78%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GE */
+
+position: absolute;
+left: 58.15%;
+right: 39.99%;
+top: 49.18%;
+bottom: 49.4%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GD */
+
+position: absolute;
+left: 29.86%;
+right: 70.09%;
+top: 64.35%;
+bottom: 35.55%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GF */
+
+position: absolute;
+left: 31.85%;
+right: 67.32%;
+top: 67.09%;
+bottom: 31.38%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GG */
+
+position: absolute;
+left: 46.3%;
+right: 53.66%;
+top: 45.55%;
+bottom: 54.4%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GH */
+
+position: absolute;
+left: 46.13%;
+right: 52.64%;
+top: 64.81%;
+bottom: 32.48%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GI */
+
+position: absolute;
+left: 45.55%;
+right: 54.45%;
+top: 53.24%;
+bottom: 46.73%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GL */
+
+position: absolute;
+left: 26.79%;
+right: 56.14%;
+top: 0.04%;
+bottom: 61.99%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GM */
+
+position: absolute;
+left: 42.36%;
+right: 56.81%;
+top: 63.67%;
+bottom: 36.01%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GN */
+
+position: absolute;
+left: 42.85%;
+right: 55.1%;
+top: 64.16%;
+bottom: 33.52%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GO */
+
+position: absolute;
+left: 60.18%;
+right: 39.82%;
+top: 74.38%;
+bottom: 25.61%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GP */
+
+position: absolute;
+left: 29.86%;
+right: 69.97%;
+top: 62.5%;
+bottom: 37.23%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GQ */
+
+position: absolute;
+left: 49.38%;
+right: 49.81%;
+top: 67.94%;
+bottom: 30.89%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GR */
+
+position: absolute;
+left: 52.5%;
+right: 45.12%;
+top: 50.22%;
+bottom: 46.13%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GS */
+
+position: absolute;
+left: 36.47%;
+right: 60.26%;
+top: 96.51%;
+bottom: 0.07%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GT */
+
+position: absolute;
+left: 21.4%;
+right: 77.49%;
+top: 61.93%;
+bottom: 36.3%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GU */
+
+position: absolute;
+left: 87.24%;
+right: 12.68%;
+top: 63.75%;
+bottom: 36.09%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GW */
+
+position: absolute;
+left: 42.39%;
+right: 56.77%;
+top: 64.16%;
+bottom: 35.1%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* GY */
+
+position: absolute;
+left: 29.97%;
+right: 68.67%;
+top: 65.92%;
+bottom: 30.99%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* HK */
+
+position: absolute;
+left: 78.68%;
+right: 21.18%;
+top: 59.81%;
+bottom: 40.02%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* HM */
+
+position: absolute;
+left: 67.4%;
+right: 32.44%;
+top: 95.79%;
+bottom: 4.05%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* HN */
+
+position: absolute;
+left: 22.2%;
+right: 76.08%;
+top: 62.5%;
+bottom: 35.97%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* HR */
+
+position: absolute;
+left: 50.79%;
+right: 47.57%;
+top: 47.42%;
+bottom: 50.16%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* HT */
+
+position: absolute;
+left: 26.33%;
+right: 72.88%;
+top: 60.92%;
+bottom: 38.17%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* HU */
+
+position: absolute;
+left: 51.51%;
+right: 46.61%;
+top: 46.16%;
+bottom: 52.11%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* ID */
+
+position: absolute;
+left: 73.5%;
+right: 13.78%;
+top: 67.03%;
+bottom: 25.89%;
+
+background: #6A0CF8;
+
+
+/* IE */
+
+position: absolute;
+left: 44.15%;
+right: 54.64%;
+top: 41.51%;
+bottom: 55.75%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* IL */
+
+position: absolute;
+left: 56.55%;
+right: 42.98%;
+top: 54.64%;
+bottom: 43.42%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* IM */
+
+position: absolute;
+left: 45.7%;
+right: 54.17%;
+top: 42.21%;
+bottom: 57.54%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* IN */
+
+position: absolute;
+left: 65.98%;
+right: 25.91%;
+top: 53.59%;
+bottom: 33.32%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* IO */
+
+position: absolute;
+left: 67.14%;
+right: 32.81%;
+top: 72.54%;
+bottom: 27.37%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* IQ */
+
+position: absolute;
+left: 57.81%;
+right: 39.47%;
+top: 52.61%;
+bottom: 43.22%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* IR */
+
+position: absolute;
+left: 59.27%;
+right: 35.37%;
+top: 51.32%;
+bottom: 41.35%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* IS */
+
+position: absolute;
+left: 40.23%;
+right: 56.73%;
+top: 31.72%;
+bottom: 65.17%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* IT */
+
+position: absolute;
+left: 48.88%;
+right: 47.83%;
+top: 47.09%;
+bottom: 47.03%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* JE */
+
+position: absolute;
+left: 46.41%;
+right: 53.52%;
+top: 45.71%;
+bottom: 54.23%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* JM */
+
+position: absolute;
+left: 25.26%;
+right: 74.15%;
+top: 61.62%;
+bottom: 38.03%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* JO */
+
+position: absolute;
+left: 56.75%;
+right: 42.04%;
+top: 54.67%;
+bottom: 43.28%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* JP */
+
+position: absolute;
+left: 81.41%;
+right: 12.43%;
+top: 48.04%;
+bottom: 40.97%;
+
+background: #6A0CF8;
+
+
+/* JU */
+
+position: absolute;
+left: 58.91%;
+right: 41.08%;
+top: 76.76%;
+bottom: 23.23%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* KE */
+
+position: absolute;
+left: 56.46%;
+right: 41.32%;
+top: 67.21%;
+bottom: 28.52%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* KG */
+
+position: absolute;
+left: 66.28%;
+right: 30.66%;
+top: 49.37%;
+bottom: 48.37%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* KH */
+
+position: absolute;
+left: 75.48%;
+right: 23.06%;
+top: 63.29%;
+bottom: 34.87%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* KI */
+
+position: absolute;
+left: 2.73%;
+right: 0.45%;
+top: 67.87%;
+bottom: 25.66%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* KM */
+
+position: absolute;
+left: 59.05%;
+right: 40.59%;
+top: 74.3%;
+bottom: 25.27%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* KN */
+
+position: absolute;
+left: 29.57%;
+right: 70.35%;
+top: 62.11%;
+bottom: 37.76%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* KP */
+
+position: absolute;
+left: 81.6%;
+right: 16.64%;
+top: 49.51%;
+bottom: 47.58%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* KR */
+
+position: absolute;
+left: 82.06%;
+right: 16.57%;
+top: 51.94%;
+bottom: 45.25%;
+
+background: #6A0CF8;
+
+
+/* XK */
+
+position: absolute;
+left: 52.6%;
+right: 46.92%;
+top: 49.36%;
+bottom: 49.84%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* KW */
+
+position: absolute;
+left: 59.97%;
+right: 39.5%;
+top: 56.28%;
+bottom: 42.97%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* KY */
+
+position: absolute;
+left: 24.4%;
+right: 75.13%;
+top: 61.07%;
+bottom: 38.71%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* KZ */
+
+position: absolute;
+left: 59.99%;
+right: 28.69%;
+top: 41.49%;
+bottom: 49.14%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* LA */
+
+position: absolute;
+left: 74.86%;
+right: 23.04%;
+top: 59.84%;
+bottom: 36.37%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* LB */
+
+position: absolute;
+left: 56.79%;
+right: 42.8%;
+top: 54.01%;
+bottom: 45.18%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* LC */
+
+position: absolute;
+left: 30.06%;
+right: 69.89%;
+top: 63.55%;
+bottom: 36.29%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* LI */
+
+position: absolute;
+left: 49.67%;
+right: 50.29%;
+top: 46.97%;
+bottom: 52.9%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* LK */
+
+position: absolute;
+left: 69.19%;
+right: 30.21%;
+top: 65.38%;
+bottom: 32.98%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* LR */
+
+position: absolute;
+left: 43.84%;
+right: 55.02%;
+top: 65.92%;
+bottom: 32.31%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* LS */
+
+position: absolute;
+left: 54.55%;
+right: 44.8%;
+top: 82.01%;
+bottom: 16.99%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* LT */
+
+position: absolute;
+left: 52.84%;
+right: 45.52%;
+top: 40.72%;
+bottom: 57.42%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* LU */
+
+position: absolute;
+left: 48.63%;
+right: 51.16%;
+top: 45.12%;
+bottom: 54.41%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* LV */
+
+position: absolute;
+left: 52.88%;
+right: 45.13%;
+top: 39.44%;
+bottom: 58.72%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* LY */
+
+position: absolute;
+left: 49.62%;
+right: 45.97%;
+top: 54.76%;
+bottom: 38.81%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MA */
+
+position: absolute;
+left: 43.37%;
+right: 53.26%;
+top: 53.36%;
+bottom: 42.55%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MC */
+
+position: absolute;
+left: 49.09%;
+right: 50.9%;
+top: 49.07%;
+bottom: 50.91%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MD */
+
+position: absolute;
+left: 54.43%;
+right: 44.59%;
+top: 46.21%;
+bottom: 51.92%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MG */
+
+position: absolute;
+left: 59.06%;
+right: 38.93%;
+top: 74.61%;
+bottom: 19.41%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* ME */
+
+position: absolute;
+left: 52.16%;
+right: 47.31%;
+top: 49.2%;
+bottom: 49.84%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MF */
+
+position: absolute;
+left: 29.49%;
+right: 70.48%;
+top: 61.8%;
+bottom: 38.18%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MH */
+
+position: absolute;
+left: 93.41%;
+right: 5.22%;
+top: 64.81%;
+bottom: 32.92%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MK */
+
+position: absolute;
+left: 52.72%;
+right: 46.57%;
+top: 49.88%;
+bottom: 49.27%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* ML */
+
+position: absolute;
+left: 43.62%;
+right: 51.79%;
+top: 58.7%;
+bottom: 34.76%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MO */
+
+position: absolute;
+left: 78.58%;
+right: 21.4%;
+top: 59.95%;
+bottom: 40.02%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MM */
+
+position: absolute;
+left: 72.66%;
+right: 24.85%;
+top: 57.04%;
+bottom: 34.64%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MN */
+
+position: absolute;
+left: 71.42%;
+right: 19.64%;
+top: 43.82%;
+bottom: 49.69%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MP */
+
+position: absolute;
+left: 87.38%;
+right: 12.43%;
+top: 61.49%;
+bottom: 36.46%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MQ */
+
+position: absolute;
+left: 30.02%;
+right: 69.87%;
+top: 63.21%;
+bottom: 36.59%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MR */
+
+position: absolute;
+left: 42.29%;
+right: 54.31%;
+top: 57.63%;
+bottom: 36.73%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MS */
+
+position: absolute;
+left: 29.74%;
+right: 70.24%;
+top: 62.37%;
+bottom: 37.57%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MT */
+
+position: absolute;
+left: 50.98%;
+right: 48.92%;
+top: 53.29%;
+bottom: 46.58%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MU */
+
+position: absolute;
+left: 62.97%;
+right: 36.9%;
+top: 78.06%;
+bottom: 21.71%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MV */
+
+position: absolute;
+left: 67.43%;
+right: 32.53%;
+top: 67.73%;
+bottom: 31.84%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MW */
+
+position: absolute;
+left: 56.12%;
+right: 42.99%;
+top: 73.46%;
+bottom: 23.21%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MX */
+
+position: absolute;
+left: 14.12%;
+right: 77.06%;
+top: 55%;
+bottom: 36.64%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MY */
+
+position: absolute;
+left: 74.73%;
+right: 19.81%;
+top: 66.43%;
+bottom: 30.85%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* MZ */
+
+position: absolute;
+left: 55.44%;
+right: 41.61%;
+top: 73.92%;
+bottom: 18.8%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* NA */
+
+position: absolute;
+left: 50.29%;
+right: 45.94%;
+top: 76.72%;
+bottom: 17.82%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* NC */
+
+position: absolute;
+left: 91.49%;
+right: 6.23%;
+top: 77.67%;
+bottom: 20.74%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* NE */
+
+position: absolute;
+left: 47.08%;
+right: 48.53%;
+top: 59.37%;
+bottom: 35.42%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* NF */
+
+position: absolute;
+left: 93.71%;
+right: 6.27%;
+top: 82.22%;
+bottom: 17.74%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* NG */
+
+position: absolute;
+left: 47.78%;
+right: 48.9%;
+top: 63.65%;
+bottom: 32.28%;
+
+background: #6A0CF8;
+
+
+/* NI */
+
+position: absolute;
+left: 22.67%;
+right: 76.08%;
+top: 63.16%;
+bottom: 35.01%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* NL */
+
+position: absolute;
+left: 47.97%;
+right: 50.96%;
+top: 42.77%;
+bottom: 55.26%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* NO */
+
+position: absolute;
+left: 48.37%;
+right: 44.36%;
+top: 26.32%;
+bottom: 60.53%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* NP */
+
+position: absolute;
+left: 69.29%;
+right: 28.46%;
+top: 56.14%;
+bottom: 41.94%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* NR */
+
+position: absolute;
+left: 93.43%;
+right: 6.56%;
+top: 69.72%;
+bottom: 30.26%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* NU */
+
+position: absolute;
+left: 99.86%;
+right: 0.1%;
+top: 77.6%;
+bottom: 22.32%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* NZ */
+
+position: absolute;
+left: 93.15%;
+right: 1.85%;
+top: 84.89%;
+bottom: 4.48%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* OM */
+
+position: absolute;
+left: 61.48%;
+right: 36.33%;
+top: 58.06%;
+bottom: 37.56%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PA */
+
+position: absolute;
+left: 23.96%;
+right: 74.42%;
+top: 65.48%;
+bottom: 33.52%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PE */
+
+position: absolute;
+left: 24.43%;
+right: 72.06%;
+top: 69.53%;
+bottom: 22.67%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PF */
+
+position: absolute;
+left: 4.92%;
+right: 90.85%;
+top: 73.2%;
+bottom: 21.55%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PG */
+
+position: absolute;
+left: 86.19%;
+right: 9.62%;
+top: 70.08%;
+bottom: 25.59%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PH */
+
+position: absolute;
+left: 79.55%;
+right: 17.78%;
+top: 60.59%;
+bottom: 32.61%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PK */
+
+position: absolute;
+left: 63.95%;
+right: 31.34%;
+top: 52.78%;
+bottom: 40.73%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PL */
+
+position: absolute;
+left: 50.96%;
+right: 46.26%;
+top: 41.89%;
+bottom: 54.13%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PM */
+
+position: absolute;
+left: 31.36%;
+right: 68.57%;
+top: 47.07%;
+bottom: 52.71%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PN */
+
+position: absolute;
+left: 11.36%;
+right: 88.62%;
+top: 80.02%;
+bottom: 19.94%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PR */
+
+position: absolute;
+left: 28.15%;
+right: 71.11%;
+top: 61.62%;
+bottom: 38.13%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PS */
+
+position: absolute;
+left: 56.54%;
+right: 43.08%;
+top: 55.09%;
+bottom: 44.26%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PT */
+
+position: absolute;
+left: 38.34%;
+right: 54.69%;
+top: 50%;
+bottom: 44.97%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PW */
+
+position: absolute;
+left: 83.48%;
+right: 15.54%;
+top: 66.27%;
+bottom: 31.75%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* PY */
+
+position: absolute;
+left: 29.62%;
+right: 68.04%;
+top: 77.74%;
+bottom: 18.48%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* QA */
+
+position: absolute;
+left: 61.14%;
+right: 38.62%;
+top: 58.16%;
+bottom: 41.11%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* RE */
+
+position: absolute;
+left: 62.39%;
+right: 37.44%;
+top: 78.45%;
+bottom: 21.33%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* RO */
+
+position: absolute;
+left: 52.66%;
+right: 44.71%;
+top: 46.35%;
+bottom: 50.87%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* RS */
+
+position: absolute;
+left: 52.27%;
+right: 46.58%;
+top: 47.64%;
+bottom: 50.05%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* RU */
+
+position: absolute;
+left: 52.48%;
+right: 0.08%;
+top: 5.88%;
+bottom: 49.47%;
+
+background: #6A0CF8;
+
+
+/* RW */
+
+position: absolute;
+left: 55.06%;
+right: 44.38%;
+top: 69.96%;
+bottom: 29.31%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SA */
+
+position: absolute;
+left: 56.66%;
+right: 37.5%;
+top: 55.29%;
+bottom: 37.44%;
+
+background: #6A0CF8;
+
+
+/* SB */
+
+position: absolute;
+left: 90.31%;
+right: 6.57%;
+top: 72.28%;
+bottom: 25.5%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SC */
+
+position: absolute;
+left: 62.43%;
+right: 37.53%;
+top: 71.42%;
+bottom: 28.48%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SD */
+
+position: absolute;
+left: 53.1%;
+right: 42.23%;
+top: 59.97%;
+bottom: 34.13%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SE */
+
+position: absolute;
+left: 50.13%;
+right: 46.25%;
+top: 28.92%;
+bottom: 58.48%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SG */
+
+position: absolute;
+left: 75.85%;
+right: 24.06%;
+top: 68.91%;
+bottom: 31.02%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SH */
+
+position: absolute;
+left: 43.03%;
+right: 54.54%;
+top: 72.82%;
+bottom: 23.7%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SI */
+
+position: absolute;
+left: 50.75%;
+right: 48.37%;
+top: 47.22%;
+bottom: 51.91%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SJ */
+
+position: absolute;
+left: 44.51%;
+right: 43.62%;
+top: 9.66%;
+bottom: 73.28%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SK */
+
+position: absolute;
+left: 51.72%;
+right: 46.7%;
+top: 45.49%;
+bottom: 53.34%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SL */
+
+position: absolute;
+left: 43.34%;
+right: 55.82%;
+top: 65.3%;
+bottom: 33.39%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SM */
+
+position: absolute;
+left: 50.48%;
+right: 49.49%;
+top: 48.94%;
+bottom: 51%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SN */
+
+position: absolute;
+left: 42.16%;
+right: 56.13%;
+top: 62.43%;
+bottom: 35.69%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SO */
+
+position: absolute;
+left: 58.42%;
+right: 38.68%;
+top: 64.46%;
+bottom: 29.78%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SR */
+
+position: absolute;
+left: 30.9%;
+right: 67.97%;
+top: 67%;
+bottom: 31.26%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SS */
+
+position: absolute;
+left: 53.75%;
+right: 43.16%;
+top: 64.36%;
+bottom: 31.95%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* ST */
+
+position: absolute;
+left: 48.83%;
+right: 50.89%;
+top: 68.8%;
+bottom: 30.51%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SV */
+
+position: absolute;
+left: 21.99%;
+right: 77.35%;
+top: 63.41%;
+bottom: 36.05%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SX */
+
+position: absolute;
+left: 29.49%;
+right: 70.48%;
+top: 61.82%;
+bottom: 38.16%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SY */
+
+position: absolute;
+left: 56.98%;
+right: 41.19%;
+top: 52.65%;
+bottom: 44.81%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* SZ */
+
+position: absolute;
+left: 55.59%;
+right: 44.04%;
+top: 80.67%;
+bottom: 18.59%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TC */
+
+position: absolute;
+left: 26.93%;
+right: 72.88%;
+top: 60.09%;
+bottom: 39.82%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TD */
+
+position: absolute;
+left: 50.77%;
+right: 46.3%;
+top: 59.41%;
+bottom: 33.63%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TF */
+
+position: absolute;
+left: 61.39%;
+right: 33.35%;
+top: 91.48%;
+bottom: 6.4%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TG */
+
+position: absolute;
+left: 47.01%;
+right: 52.47%;
+top: 64.83%;
+bottom: 33.04%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TH */
+
+position: absolute;
+left: 74.1%;
+right: 23.6%;
+top: 60.77%;
+bottom: 32.85%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TJ */
+
+position: absolute;
+left: 65.76%;
+right: 32.09%;
+top: 50.62%;
+bottom: 47.03%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TK */
+
+position: absolute;
+left: 99.15%;
+right: 0.48%;
+top: 73.1%;
+bottom: 26.55%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TL */
+
+position: absolute;
+left: 81.51%;
+right: 17.58%;
+top: 72.93%;
+bottom: 26.49%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TM */
+
+position: absolute;
+left: 61.63%;
+right: 34.45%;
+top: 49.64%;
+bottom: 46.25%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TN */
+
+position: absolute;
+left: 49.12%;
+right: 49.76%;
+top: 52.62%;
+bottom: 43.78%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TO */
+
+position: absolute;
+left: 98.36%;
+right: 1.24%;
+top: 77.42%;
+bottom: 21.29%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TR */
+
+position: absolute;
+left: 54.17%;
+right: 40.51%;
+top: 50.03%;
+bottom: 46.59%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TT */
+
+position: absolute;
+left: 29.83%;
+right: 69.79%;
+top: 64.74%;
+bottom: 34.72%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TV */
+
+position: absolute;
+left: 96.04%;
+right: 3.15%;
+top: 72.07%;
+bottom: 26.89%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TW */
+
+position: absolute;
+left: 79.91%;
+right: 19.07%;
+top: 58.57%;
+bottom: 39.9%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* TZ */
+
+position: absolute;
+left: 55.19%;
+right: 41.72%;
+top: 69.93%;
+bottom: 25.55%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* UA */
+
+position: absolute;
+left: 53.19%;
+right: 41.81%;
+top: 43.65%;
+bottom: 51.29%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* UG */
+
+position: absolute;
+left: 55.25%;
+right: 43.24%;
+top: 67.74%;
+bottom: 29.87%;
+
+background: #6A0CF8;
+
+
+/* UM-DQ */
+
+position: absolute;
+left: 2.55%;
+right: 97.44%;
+top: 69.67%;
+bottom: 30.32%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* UM-FQ */
+
+position: absolute;
+left: 98.05%;
+right: 1.95%;
+top: 69.42%;
+bottom: 30.58%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* UM-HQ */
+
+position: absolute;
+left: 98%;
+right: 2%;
+top: 69.17%;
+bottom: 30.82%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* UM-JQ */
+
+position: absolute;
+left: 99.98%;
+right: 0.02%;
+top: 62.41%;
+bottom: 37.59%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* UM-MQ */
+
+position: absolute;
+left: 97.79%;
+right: 2.2%;
+top: 57.18%;
+bottom: 42.8%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* UM-WQ */
+
+position: absolute;
+left: 93.35%;
+right: 6.64%;
+top: 61.26%;
+bottom: 38.72%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* US */
+
+position: absolute;
+left: 0.03%;
+right: 71.59%;
+top: 25.97%;
+bottom: 38.58%;
+
+background: #6A0CF8;
+
+
+/* UY */
+
+position: absolute;
+left: 30.79%;
+right: 67.73%;
+top: 82.74%;
+bottom: 14.85%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* UZ */
+
+position: absolute;
+left: 62.59%;
+right: 32.64%;
+top: 48.01%;
+bottom: 47.29%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* VA */
+
+position: absolute;
+left: 50.49%;
+right: 49.51%;
+top: 50.14%;
+bottom: 49.86%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* VC */
+
+position: absolute;
+left: 29.98%;
+right: 69.96%;
+top: 63.87%;
+bottom: 35.85%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* VE */
+
+position: absolute;
+left: 26.64%;
+right: 69.6%;
+top: 64.37%;
+bottom: 30.78%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* VG */
+
+position: absolute;
+left: 29.05%;
+right: 70.83%;
+top: 61.52%;
+bottom: 38.33%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* VI */
+
+position: absolute;
+left: 28.96%;
+right: 70.92%;
+top: 61.68%;
+bottom: 38.02%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* VN */
+
+position: absolute;
+left: 75.42%;
+right: 22.54%;
+top: 59.45%;
+bottom: 34.09%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* VU */
+
+position: absolute;
+left: 93.32%;
+right: 5.74%;
+top: 75.31%;
+bottom: 21.83%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* WF */
+
+position: absolute;
+left: 97.57%;
+right: 1.86%;
+top: 75.1%;
+bottom: 24.43%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* WS */
+
+position: absolute;
+left: 99.07%;
+right: 0.56%;
+top: 75.2%;
+bottom: 24.55%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* YE */
+
+position: absolute;
+left: 58.86%;
+right: 37.81%;
+top: 61.41%;
+bottom: 35.69%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* YT */
+
+position: absolute;
+left: 59.55%;
+right: 40.4%;
+top: 74.85%;
+bottom: 25.01%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* ZA */
+
+position: absolute;
+left: 51.61%;
+right: 42.43%;
+top: 79.02%;
+bottom: 8.13%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* ZM */
+
+position: absolute;
+left: 53.14%;
+right: 43.61%;
+top: 72.95%;
+bottom: 22.81%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* ZW */
+
+position: absolute;
+left: 54.05%;
+right: 43.79%;
+top: 76.14%;
+bottom: 20.86%;
+
+background: rgba(115, 78, 170, 0.2);
+
+
+/* Frame 15 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 255px;
+height: 224px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Frame 16 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 4px;
+gap: 10px;
+
+width: 255px;
+height: 24px;
+
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 96px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+border-radius: 1px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 12.5%;
+bottom: 46.88%;
+
+background: #EA3323;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 50%;
+bottom: 12.5%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #000000;
+opacity: 0.15;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 15.62%;
+bottom: 71.88%;
+
+background: #FFFFFF;
+opacity: 0.2;
+
+
+/* Indonesia */
+
+width: 68px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 22px;
+
+margin: 0 auto;
+width: 131px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 14,231 */
+
+width: 42px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 71px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.5px solid #0CCC1E;
+
+
+/* 72.08% */
+
+width: 55px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #0CCC1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 4px;
+gap: 10px;
+
+width: 255px;
+height: 24px;
+
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 57px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 5.12%;
+right: 5.12%;
+top: 12.5%;
+bottom: 81.73%;
+
+background: #A62842;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 3.12%;
+top: 24.04%;
+bottom: 70.19%;
+
+background: #A62842;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 3.12%;
+top: 35.58%;
+bottom: 58.65%;
+
+background: #A62842;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 3.12%;
+top: 47.12%;
+bottom: 47.12%;
+
+background: #A62842;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 58.65%;
+bottom: 35.58%;
+
+background: #A62842;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 70.19%;
+bottom: 24.04%;
+
+background: #A62842;
+
+
+/* Vector */
+
+position: absolute;
+left: 5.12%;
+right: 5.12%;
+top: 81.73%;
+bottom: 12.5%;
+
+background: #A62842;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 50%;
+top: 12.5%;
+bottom: 47.12%;
+
+background: #102D5E;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #000000;
+opacity: 0.15;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 15.62%;
+bottom: 71.88%;
+
+background: #FFFFFF;
+opacity: 0.2;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.25%;
+right: 83.77%;
+top: 19.81%;
+bottom: 74.51%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 19.56%;
+right: 74.46%;
+top: 19.81%;
+bottom: 74.51%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 28.87%;
+right: 65.15%;
+top: 19.81%;
+bottom: 74.51%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.82%;
+right: 79.19%;
+top: 25.49%;
+bottom: 68.82%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 24.13%;
+right: 69.88%;
+top: 25.49%;
+bottom: 68.82%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.44%;
+right: 60.57%;
+top: 25.49%;
+bottom: 68.82%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.82%;
+right: 79.19%;
+top: 36.87%;
+bottom: 57.44%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 24.13%;
+right: 69.88%;
+top: 36.87%;
+bottom: 57.44%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.44%;
+right: 60.57%;
+top: 36.87%;
+bottom: 57.44%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.18%;
+right: 55.84%;
+top: 19.81%;
+bottom: 74.51%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.25%;
+right: 83.77%;
+top: 31.18%;
+bottom: 63.13%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 19.56%;
+right: 74.46%;
+top: 31.18%;
+bottom: 63.13%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 28.87%;
+right: 65.15%;
+top: 31.18%;
+bottom: 63.13%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.18%;
+right: 55.84%;
+top: 31.18%;
+bottom: 63.13%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.25%;
+right: 83.77%;
+top: 42.56%;
+bottom: 51.75%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 19.56%;
+right: 74.46%;
+top: 42.56%;
+bottom: 51.75%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 28.87%;
+right: 65.15%;
+top: 42.56%;
+bottom: 51.75%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.18%;
+right: 55.84%;
+top: 42.56%;
+bottom: 51.75%;
+
+background: #FFFFFF;
+
+
+/* USA */
+
+width: 29px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 22px;
+
+margin: 0 auto;
+width: 127px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3,207 */
+
+width: 40px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 57px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 87.5%;
+bottom: -62.5%;
+
+border: 1.5px solid #CC3C0C;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* 2.13% */
+
+width: 41px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #CC3C0C;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 4px;
+gap: 10px;
+
+width: 255px;
+height: 24px;
+
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 88px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #061B65;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 50%;
+top: 12.5%;
+bottom: 50%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 5.64%;
+right: 79.83%;
+top: 15.61%;
+bottom: 75%;
+
+background: #D22D32;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 79.83%;
+top: 37.5%;
+bottom: 50%;
+
+background: #D22D32;
+
+
+/* 1705926025352-5861297_Star7 */
+
+position: absolute;
+left: 12.91%;
+right: 70.17%;
+top: 58.57%;
+bottom: 24.93%;
+
+background: #FFFFFF;
+
+
+/* 1705926025352-5861297_Star7-2 */
+
+position: absolute;
+left: 67.62%;
+right: 23.17%;
+top: 67.98%;
+bottom: 23.04%;
+
+background: #FFFFFF;
+
+
+/* 1705926025352-5861297_Star7-3 */
+
+position: absolute;
+left: 58.42%;
+right: 32.38%;
+top: 41.02%;
+bottom: 50%;
+
+background: #FFFFFF;
+
+
+/* 1705926025352-5861297_Star7-4 */
+
+position: absolute;
+left: 68.62%;
+right: 22.18%;
+top: 22.27%;
+bottom: 68.75%;
+
+background: #FFFFFF;
+
+
+/* 1705926025352-5861297_Star7-5 */
+
+position: absolute;
+left: 83.31%;
+right: 7.48%;
+top: 33.8%;
+bottom: 57.22%;
+
+background: #FFFFFF;
+
+
+/* 1705926025352-5861297_Star5 */
+
+position: absolute;
+left: 77.83%;
+right: 16.94%;
+top: 50%;
+bottom: 45.02%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 50%;
+top: 12.5%;
+bottom: 50%;
+
+background: #D22D32;
+
+
+/* Vector */
+
+position: absolute;
+left: 34.38%;
+right: 50%;
+top: 37.5%;
+bottom: 50%;
+
+background: #D22D32;
+
+
+/* Vector */
+
+position: absolute;
+left: 32.16%;
+right: 50%;
+top: 12.5%;
+bottom: 74.99%;
+
+background: #D22D32;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #000000;
+opacity: 0.15;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 15.62%;
+bottom: 71.88%;
+
+background: #FFFFFF;
+opacity: 0.2;
+
+
+/* Australia */
+
+width: 60px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 22px;
+
+margin: 0 auto;
+width: 126px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 1,084 */
+
+width: 38px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 72px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.5px solid #0CCC1E;
+
+
+/* 23.08% */
+
+width: 56px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #0CCC1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 4px;
+gap: 10px;
+
+width: 255px;
+height: 24px;
+
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 72px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 34.38%;
+bottom: 34.38%;
+
+background: #1435A1;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 12.5%;
+bottom: 62.5%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 96.88%;
+right: -90.62%;
+top: 87.5%;
+bottom: -12.5%;
+
+background: #C53A28;
+transform: rotate(180deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #000000;
+opacity: 0.15;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 15.62%;
+bottom: 71.88%;
+
+background: #FFFFFF;
+opacity: 0.2;
+
+
+/* Russia */
+
+width: 44px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 23px;
+
+margin: 0 auto;
+width: 131px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 991 */
+
+width: 23px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 70px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.5px solid #0CCC1E;
+
+
+/* 65.23% */
+
+width: 54px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #0CCC1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 20 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 4px;
+gap: 10px;
+
+width: 255px;
+height: 24px;
+
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 68px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #DB362F;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #000000;
+opacity: 0.15;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.29%;
+right: 67.36%;
+top: 24.33%;
+bottom: 56.32%;
+
+background: #FFFF00;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.24%;
+right: 56.15%;
+top: 21.05%;
+bottom: 72.19%;
+
+background: #FFFF00;
+
+
+/* Vector */
+
+position: absolute;
+left: 43.9%;
+right: 49.42%;
+top: 28.26%;
+bottom: 65.02%;
+
+background: #FFFF00;
+
+
+/* Vector */
+
+position: absolute;
+left: 44%;
+right: 49.22%;
+top: 38.6%;
+bottom: 54.88%;
+
+background: #FFFF00;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.32%;
+right: 56.14%;
+top: 45.96%;
+bottom: 47.27%;
+
+background: #FFFF00;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 15.62%;
+bottom: 71.88%;
+
+background: #FFFFFF;
+opacity: 0.2;
+
+
+/* China */
+
+width: 40px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 23px;
+
+margin: 0 auto;
+width: 131px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 635 */
+
+width: 26px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 68px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.5px solid #0CCC1E;
+
+
+/* 40.21% */
+
+width: 52px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #0CCC1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 21 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 4px;
+gap: 10px;
+
+width: 255px;
+height: 24px;
+
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 66px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #459A45;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #000000;
+opacity: 0.15;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.85%;
+right: 10.85%;
+top: 25%;
+bottom: 25%;
+
+background: #FEDF00;
+
+
+/* Vector */
+
+position: absolute;
+left: 34.38%;
+right: 34.38%;
+top: 34.38%;
+bottom: 34.38%;
+
+background: #0A2172;
+
+
+/* Vector */
+
+position: absolute;
+left: 34.38%;
+right: 34.77%;
+top: 45.31%;
+bottom: 43.42%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 15.62%;
+bottom: 71.88%;
+
+background: #FFFFFF;
+opacity: 0.2;
+
+
+/* Brasil */
+
+width: 38px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 23px;
+
+margin: 0 auto;
+width: 131px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 231 */
+
+width: 23px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 68px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 87.5%;
+bottom: -62.5%;
+
+border: 1.5px solid #CC3C0C;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* 10.25% */
+
+width: 52px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #CC3C0C;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 400px;
+height: 373px;
+
+background: #FFFFFF;
+border: 1.5px solid #F1F1F4;
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.03);
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Card Header */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 12px 30px;
+gap: 10px;
+
+width: 400px;
+height: 56px;
+min-height: 56px;
+
+border-bottom: 1.5px solid #F1F1F4;
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Social Media Audience */
+
+margin: 0 auto;
+width: 340px;
+height: 20px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.01em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Card Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 24px 30px;
+gap: 16px;
+
+width: 400px;
+height: 317px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 25 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 340px;
+height: 133px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 44 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 8px;
+gap: 8px;
+
+width: 149px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Total Audience */
+
+width: 102px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 26 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 149px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 20,453 */
+
+width: 80px;
+height: 30px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.04em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 57px;
+height: 26px;
+
+background: rgba(12, 204, 30, 0.1);
+border: 1px solid rgba(12, 204, 30, 0.5);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.5px solid #0CCC1E;
+
+
+/* 14% */
+
+width: 29px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #0CCC1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 28 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 340px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 4 */
+
+width: 195px;
+height: 7px;
+
+background: #2870F3;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 5 */
+
+width: 85px;
+height: 7px;
+
+background: #FF6F1E;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 6 */
+
+width: 52px;
+height: 7px;
+
+background: #0CCC1E;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 32 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 0px;
+gap: 16px;
+
+width: 340px;
+height: 34px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 29 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 88px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ellipse 1 */
+
+width: 10px;
+height: 10px;
+
+background: #2870F3;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Facebook */
+
+width: 70px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 30 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 67px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Ellipse 1 */
+
+width: 10px;
+height: 10px;
+
+background: #FF6F1E;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Twitter */
+
+width: 49px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 31 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 88px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Ellipse 2 */
+
+width: 10px;
+height: 10px;
+
+background: #0CCC1E;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Instagram */
+
+width: 70px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 340px;
+height: 0px;
+
+border: 1px solid #E5E7EB;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 15 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 340px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 16 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 4px;
+gap: 10px;
+
+width: 340px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 98px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 5365678_fb_facebook_facebook logo_icon 1 */
+
+width: 20px;
+height: 20px;
+
+border-radius: 1px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1777F2;
+
+
+/* Facebook */
+
+width: 70px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 18px;
+
+margin: 0 auto;
+width: 131px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 14,231 */
+
+width: 42px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 71px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.5px solid #0CCC1E;
+
+
+/* 72.08% */
+
+width: 55px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #0CCC1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 4px;
+gap: 10px;
+
+width: 340px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 77px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 11053970_x_logo_twitter_new_brand_icon 1 */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 4.17%;
+bottom: 4.17%;
+
+background: #000000;
+
+
+/* Twitter */
+
+width: 49px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+margin: 0 auto;
+width: 127px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3,207 */
+
+width: 40px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 57px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 87.5%;
+bottom: -62.5%;
+
+border: 1.5px solid #CC3C0C;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* 2.13% */
+
+width: 41px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #CC3C0C;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 4px;
+gap: 10px;
+
+width: 340px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 98px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 3225191_app_instagram_logo_media_popular_icon 1 */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(45deg, #FFD521 14.64%, #FFD020 18.54%, #FEC01E 23.42%, #FCA71B 28.82%, #FA8316 34.59%, #F85510 40.67%, #F51E09 46.91%, #F30005 50%, #F20007 50.25%, #E1003B 56.83%, #D30067 63.29%, #C70088 69.49%, #BF00A0 75.38%, #BB00AF 80.81%, #B900B4 85.36%);
+
+
+/* Group */
+
+position: absolute;
+left: 15.86%;
+right: 15.86%;
+top: 15.87%;
+bottom: 15.86%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 15.86%;
+right: 15.86%;
+top: 15.87%;
+bottom: 15.86%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 32.47%;
+right: 32.47%;
+top: 32.47%;
+bottom: 32.47%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 64.12%;
+right: 27.68%;
+top: 27.68%;
+bottom: 64.12%;
+
+background: #FFFFFF;
+
+
+/* Instagram */
+
+width: 70px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 18px;
+
+margin: 0 auto;
+width: 126px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 1,084 */
+
+width: 38px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 73px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.5px solid #0CCC1E;
+
+
+/* 20.08% */
+
+width: 57px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+letter-spacing: 0.15px;
+
+color: #0CCC1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 32px;
+gap: 30px;
+
+position: absolute;
+width: 1225px;
+height: 140px;
+left: 0px;
+top: 190px;
+
+
+
+/* Card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 20px;
+gap: 24px;
+
+width: 267.75px;
+height: 140px;
+
+background: #FFFFFF;
+border: 1.5px solid #F1F1F4;
+/* Card Shadow */
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.03);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 90px;
+
+width: 227.75px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 140px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* User Engagement */
+
+width: 140px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 6,650 */
+
+width: 140px;
+height: 30px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.04em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+margin: 0 auto;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 9.38%;
+bottom: 9.37%;
+
+background: #2870F3;
+
+
+/* Frame 11 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 144px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 57px;
+height: 26px;
+
+background: rgba(12, 204, 30, 0.1);
+border: 1px solid rgba(12, 204, 30, 0.5);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.5px solid #0CCC1E;
+
+
+/* 14% */
+
+width: 29px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #0CCC1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* + 210 today */
+
+width: 79px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 20px;
+gap: 24px;
+
+width: 267.75px;
+height: 140px;
+
+background: #FFFFFF;
+border: 1.5px solid #F1F1F4;
+/* Card Shadow */
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.03);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 90px;
+
+width: 227.75px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 140px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Traffic Sources */
+
+width: 140px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 991 */
+
+width: 140px;
+height: 30px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.04em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+margin: 0 auto;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 21.88%;
+top: 21.88%;
+bottom: 9.38%;
+
+background: #28A9F3;
+
+
+/* Vector */
+
+position: absolute;
+left: 53.12%;
+right: 9.38%;
+top: 9.38%;
+bottom: 53.12%;
+
+background: #28A9F3;
+
+
+/* Frame 11 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 142px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 61px;
+height: 26px;
+
+background: rgba(12, 204, 30, 0.1);
+border: 1px solid rgba(12, 204, 30, 0.5);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.5px solid #0CCC1E;
+
+
+/* 20% */
+
+width: 33px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #0CCC1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* + 70 today */
+
+width: 73px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 20px;
+gap: 24px;
+
+width: 267.75px;
+height: 140px;
+
+background: #FFFFFF;
+border: 1.5px solid #F1F1F4;
+/* Card Shadow */
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.03);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 90px;
+
+width: 227.75px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 140px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Audience Growth */
+
+width: 140px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 3,147 */
+
+width: 140px;
+height: 30px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.04em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+margin: 0 auto;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 9.38%;
+top: 12.5%;
+bottom: 9.37%;
+
+background: #F36228;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 59.39%;
+bottom: 19.21%;
+
+background: #F36228;
+
+
+/* Frame 11 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 138px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 58px;
+height: 26px;
+
+background: rgba(204, 60, 12, 0.1);
+border: 1px solid rgba(204, 60, 12, 0.5);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 87.5%;
+bottom: -62.5%;
+
+border: 1.5px solid #CC3C0C;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* 10% */
+
+width: 30px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #CC3C0C;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* - 60 today */
+
+width: 72px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 20px;
+gap: 24px;
+
+width: 267.75px;
+height: 140px;
+
+background: #FFFFFF;
+border: 1.5px solid #F1F1F4;
+/* Card Shadow */
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.03);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 90px;
+
+width: 227.75px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 140px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content Performance */
+
+width: 152px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 14,321 */
+
+width: 140px;
+height: 30px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.04em;
+
+color: #120F43;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame */
+
+margin: 0 auto;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 9.38%;
+bottom: 9.37%;
+
+background: #0CCC1E;
+
+
+/* Frame 11 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 148px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 6px;
+gap: 4px;
+
+width: 59px;
+height: 26px;
+
+background: rgba(12, 204, 30, 0.1);
+border: 1px solid rgba(12, 204, 30, 0.5);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.5px solid #0CCC1E;
+
+
+/* 27% */
+
+width: 31px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #0CCC1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* + 760 today */
+
+width: 81px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 74 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 16px 32px;
+gap: 443px;
+
+position: absolute;
+width: 1225px;
+height: 74px;
+left: 0px;
+top: 0px;
+
+border-bottom: 1px solid #E5E7EB;
+
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 94px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.5px solid #120F43;
+
+
+/* Search... */
+
+width: 60px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: rgba(18, 15, 67, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 75 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 205px;
+height: 42px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 71 */
+
+width: 29px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 4px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 15.37%;
+right: 15.37%;
+top: 12.5%;
+bottom: 12.51%;
+
+border: 1.5px solid #120F43;
+
+
+/* Frame 70 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 1.5px 5px;
+gap: 10px;
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 14px;
+top: -2px;
+
+background: #6A0CF8;
+border-radius: 17px;
+
+
+/* 3 */
+
+width: 8px;
+height: 15px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 0.15px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 72 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 160px;
+height: 42px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Ellipse 4 */
+
+width: 42px;
+height: 42px;
+
+background: url(.jpg), #D9D9D9;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Hizrian Alma’in */
+
+width: 110px;
+height: 19px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 19px;
+/* identical to box height */
+letter-spacing: 0.15px;
+
+color: #2A2F5B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;

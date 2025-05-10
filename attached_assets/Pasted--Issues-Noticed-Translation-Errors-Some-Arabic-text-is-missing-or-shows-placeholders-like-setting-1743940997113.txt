@@ -1,0 +1,85 @@
+ Issues Noticed:
+Translation Errors:
+
+Some Arabic text is missing or shows placeholders like settings.profileInformation or settings.saveChanges.
+
+Many labels and buttons appear as keys rather than translated text (e.g., connect.autoPublishDesc, connect.analyticsDesc).
+
+Incomplete Dark Mode Implementation:
+
+Not all components switch to dark mode properly.
+
+Certain cards and panels remain in light mode even when dark mode is active.
+
+Visual Inconsistencies:
+
+The colorful header mentioned (like ContentStudio) isn't properly implemented yet.
+
+The navigation menu has a plain look; it could be made more visually appealing with icons, better spacing, and some hover animations.
+
+Missing Features or Incomplete Implementations:
+
+Google Sign-In is giving errors; need to ensure the provider is correctly configured and enabled.
+
+Snapchat integration appears inactive or incomplete.
+
+The Analytics page seems limited in data scope and doesn't provide a clear overview or insight into content performance.
+
+Styling Issues:
+
+Buttons and elements look basic; adding shadows, rounded corners, or subtle animations would enhance the user experience.
+
+Text and input fields sometimes lack padding, making them look cramped.
+
+Lack of consistency in the use of fonts and font sizes across the application.
+
+Accessibility Issues:
+
+The app doesn't seem to offer any accessibility features (e.g., keyboard navigation, screen reader compatibility).
+
+Poor color contrast in some parts of the dark mode could be problematic.
+
+📌 Recommendations:
+Fix Translation Keys:
+
+Go through your Arabic and English locale files and add the missing keys.
+
+Make sure all components use the correct translation hooks.
+
+Improve Dark Mode:
+
+Ensure all components are styled for both light and dark modes.
+
+Test the dark mode thoroughly on all pages and elements.
+
+Enhance Visuals:
+
+Add colorful headers and gradients similar to ContentStudio.
+
+Improve the sidebar design with better spacing, icons, and animations.
+
+Apply consistent styling for buttons, inputs, cards, etc.
+
+Enable Google Sign-In:
+
+Ensure your GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, and GOOGLE_REDIRECT_URI are correctly configured in your .env file.
+
+Check if your Google credentials are properly saved in the server configuration.
+
+Make sure the callback URL is correctly set up in the Google Console.
+
+Add More Functionalities:
+
+Implement full Snapchat integration (OAuth and API functionalities).
+
+Improve Analytics to provide deeper insights and better graphs.
+
+Add more content scheduling and management features.
+
+Improve UX:
+
+Add smooth animations and transitions to make the app feel more interactive.
+
+Provide tooltips or help icons to explain various features.
+
+Make sure that the dark mode toggle and language switcher are easily accessible.

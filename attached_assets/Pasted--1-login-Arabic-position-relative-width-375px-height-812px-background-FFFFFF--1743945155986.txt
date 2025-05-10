@@ -1,0 +1,296 @@
+/* 1 login Arabic */
+
+position: relative;
+width: 375px;
+height: 812px;
+
+background: #FFFFFF;
+
+
+/* من خلال العملية ، فإنك توافق على سياسة الخصوصية والشروط والأحكام */
+
+position: absolute;
+width: 315px;
+height: 38px;
+left: 30px;
+top: 712px;
+
+font-family: 'GE SS Two';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+/* text body color */
+color: #B2BDD0;
+
+
+
+/* Butten */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 327px;
+height: 56px;
+left: 24px;
+top: 529px;
+
+/* them blue */
+background: linear-gradient(180deg, #AC8AF7 0%, #6E4CEE 100%);
+border-radius: 30px;
+
+
+/* Sign In */
+
+width: 122px;
+height: 22px;
+
+font-family: 'GE SS Two';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+/* white */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 21px;
+
+position: absolute;
+width: 327px;
+height: 56px;
+left: 24px;
+top: 603px;
+
+/* text body color */
+border: 1px solid #B2BDD0;
+border-radius: 30px;
+
+
+/* اشترك مع Gmail */
+
+width: 134px;
+height: 22px;
+
+font-family: 'GE SS Two';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+/* text colure */
+color: #010A1B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 1 */
+
+width: 24px;
+height: 24px;
+
+background: url(image);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Ellipse 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 454px;
+height: 454px;
+left: -40px;
+top: -56px;
+
+
+
+/* Ellipse 10 */
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 144px;
+top: 62px;
+
+/* them blue */
+background: linear-gradient(180deg, #AC8AF7 0%, #6E4CEE 100%);
+opacity: 0.3;
+
+
+/* Ellipse 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 226px;
+height: 226px;
+left: 74px;
+top: 58px;
+
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 300px;
+height: 300px;
+left: 37px;
+top: 21px;
+
+
+
+/* Ellipse 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 376px;
+height: 376px;
+left: -1px;
+top: -17px;
+
+
+
+/* جميع تطبيقات التواصل الاجتماعي في منصة واحدة */
+
+position: absolute;
+width: 292px;
+height: 57px;
+left: 37px;
+top: 440px;
+
+font-family: 'GE SS Two';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 24px;
+text-align: center;
+
+/* text colure */
+color: #010A1B;
+
+
+
+/* Ellipse 5 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 328px;
+top: 256px;
+
+background: #9CEAE9;
+
+
+/* Ellipse 6 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 262px;
+top: 269px;
+
+background: url(.png);
+
+
+/* Ellipse 7 */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 96px;
+top: 284px;
+
+background: url(.png);
+
+
+/* Ellipse 8 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 61px;
+top: 157px;
+
+background: url(.png);
+
+
+/* Ellipse 9 */
+
+position: absolute;
+width: 23px;
+height: 23px;
+left: 60px;
+top: 68px;
+
+background: url(.png);
+
+
+/* Ellipse 11 */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 286px;
+top: 133px;
+
+background: url(.png);
+
+
+/* Ellipse 12 */
+
+position: absolute;
+width: 25px;
+height: 25px;
+left: 340px;
+top: 79px;
+
+background: url(.png);
+
+
+/* Ellipse 13 */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 260px;
+top: 41px;
+
+background: url(.png);

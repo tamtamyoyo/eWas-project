@@ -1,0 +1,77 @@
+Objective:
+Please review and fix my entire application, starting from the login and signup pages, continuing through the dashboard, and covering all other pages. The app currently has multiple issues that affect both functionality and user experience.
+
+Scope of Tasks:
+
+Authentication System (Login/Signup):
+
+Ensure email/password authentication works properly.
+
+Validate all form fields (e.g., email format, password length).
+
+Handle error messages (e.g., incorrect credentials, user already exists).
+
+Improve UI/UX if needed (e.g., better form layout, loading states).
+
+Dashboard Functionality:
+
+Check that user-specific data is correctly fetched and displayed.
+
+Fix any broken or unresponsive elements (charts, tables, buttons, etc.).
+
+Ensure navigation between dashboard sections is smooth and bug-free.
+
+All Other Pages:
+
+Scan all routes/views in the app and fix any errors.
+
+Verify all forms, buttons, and actions are functioning correctly.
+
+Check responsive design across different screen sizes.
+
+General Codebase Health:
+
+Clean up unused or broken code.
+
+Fix warnings or errors in the console.
+
+Make sure components are modular and reusable.
+
+Ensure all dependencies are correctly installed and updated.
+
+UI/UX Improvements:
+
+Improve layout consistency and visual hierarchy.
+
+Ensure color contrast and font readability.
+
+Add helpful user feedback (e.g., success messages, error messages, loading spinners).
+
+Preferences:
+
+Programming Language: Use the current stack of the project (JavaScript/TypeScript, React, etc.).
+
+Language for Communication: English
+
+Language for App Interface: English
+
+Platform: Web
+
+Environment: Online
+
+Hosting: Assume Replit or compatible environment
+
+Expected Output:
+
+Fully functional authentication (signup/login/logout)
+
+Working and interactive dashboard
+
+All major bugs fixed across the app
+
+Clean, maintainable code
+
+Enhanced user interface and experience
+
+Please inspect the app thoroughly and fix all the above areas step-by-step. Let me know if there are missing files or project structure issues.
+
