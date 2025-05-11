@@ -7,9 +7,9 @@
  * Run with: node setup-railway-env.js
  */
 
-const fs = require('fs');
-const readline = require('readline');
-const { execSync } = require('child_process');
+import fs from 'fs';
+import readline from 'readline';
+import { execSync } from 'child_process';
 
 const rl = readline.createInterface({
   input: process.stdin,
